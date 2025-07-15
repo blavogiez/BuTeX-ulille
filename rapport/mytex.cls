@@ -19,23 +19,129 @@
 \RequirePackage{listings}
 \RequirePackage[most]{tcolorbox}
 \RequirePackage{enumitem}
-\RequirePackage{tcolorbox}
-\RequirePackage{listings}
-\RequirePackage{xcolor}
-\RequirePackage{tcolorbox}
-\RequirePackage{inconsolata}
+\RequirePackage{hyperref}
 
-\tcbuselibrary{listings, skins}
+% Packages pour un style professionnel
+\RequirePackage{lmodern} % Police moderne et lisible
+\RequirePackage{microtype} % Amélioration fine de la typographie
+\RequirePackage{setspace} % Contrôle précis de l'espacement
+\RequirePackage{titlesec} % Personnalisation professionnelle des titres
+\RequirePackage{tikz} % Éléments graphiques minimalistes
+\RequirePackage{pgfplots} % Graphiques scientifiques
+\RequirePackage{booktabs} % Tableaux de qualité professionnelle
+\RequirePackage{array} % Tableaux améliorés
+\RequirePackage{multirow} % Tableaux complexes
+\RequirePackage{longtable} % Tableaux sur plusieurs pages
+\RequirePackage{colortbl} % Couleurs subtiles dans les tableaux
+\RequirePackage{ragged2e} % Justification optimisée
+\RequirePackage{csquotes} % Guillemets typographiques
+\RequirePackage{parskip} % Espacement des paragraphes
+\RequirePackage{amsmath,amssymb} % Mathématiques avancées
+\RequirePackage{theorem} % Théorèmes et définitions
 
+\tcbuselibrary{listings, skins, breakable}
+
+% Configuration de siunitx pour le français
+\sisetup{
+	locale = FR,
+	group-separator = {\,},
+	output-decimal-marker = {,}
+}
+
+% Configuration de microtype pour une typographie parfaite
+\microtypesetup{
+	protrusion = true,
+	expansion = true,
+	tracking = true,
+	kerning = true,
+	spacing = true
+}
+
+% Palette de couleurs professionnelles (tons sobres et neutres)
+\definecolor{primary}{HTML}{2C3E50}        % Bleu marine profond
+\definecolor{secondary}{HTML}{34495E}      % Gris ardoise
+\definecolor{accent}{HTML}{3498DB}         % Bleu professionnel
+\definecolor{success}{HTML}{27AE60}        % Vert professionnel
+\definecolor{warning}{HTML}{F39C12}        % Orange professionnel
+\definecolor{error}{HTML}{E74C3C}          % Rouge professionnel
+\definecolor{lightgray}{HTML}{F8F9FA}      % Gris très clair
+\definecolor{mediumgray}{HTML}{BDC3C7}     % Gris moyen
+\definecolor{darkgray}{HTML}{7F8C8D}       % Gris foncé
+\definecolor{textcolor}{HTML}{2C3E50}      % Couleur de texte principale
+\definecolor{codebg}{HTML}{F5F5F5}         % Fond de code neutre
+\definecolor{codeframe}{HTML}{D5DBDB}      % Bordure de code
+
+% Couleurs spécifiques par langage (tons professionnels)
+\definecolor{pythonbg}{HTML}{F8F9FA}
+\definecolor{pythonframe}{HTML}{3776AB}
+\definecolor{javabg}{HTML}{F8F9FA}
+\definecolor{javaframe}{HTML}{ED8B00}
+\definecolor{sqlbg}{HTML}{F8F9FA}
+\definecolor{sqlframe}{HTML}{336791}
+\definecolor{cppbg}{HTML}{F8F9FA}
+\definecolor{cppframe}{HTML}{00599C}
+\definecolor{jsbg}{HTML}{F8F9FA}
+\definecolor{jsframe}{HTML}{F0DB4F}
+\definecolor{htmlbg}{HTML}{F8F9FA}
+\definecolor{htmlframe}{HTML}{E34C26}
+\definecolor{cssbg}{HTML}{F8F9FA}
+\definecolor{cssframe}{HTML}{1572B6}
+\definecolor{bashbg}{HTML}{F8F9FA}
+\definecolor{bashframe}{HTML}{4EAA25}
+\definecolor{rbg}{HTML}{F8F9FA}
+\definecolor{rframe}{HTML}{198CE7}
+\definecolor{matlabbg}{HTML}{F8F9FA}
+\definecolor{matlabframe}{HTML}{0076A8}
+
+% Configuration des liens (style professionnel)
+\hypersetup{
+	colorlinks=true,
+	linkcolor=primary,
+	urlcolor=accent,
+	citecolor=secondary,
+	filecolor=accent,
+	pdfborder={0 0 0},
+	pdftitle={},
+	pdfauthor={},
+	pdfsubject={},
+	pdfkeywords={}
+}
+
+% Configuration des titres (style professionnel épuré)
+\titleformat{\section}
+{\Large\bfseries\color{primary}}
+{\thesection}
+{1em}
+{}
+[\vspace{-0.3em}\rule{\textwidth}{0.8pt}]
+
+\titleformat{\subsection}
+{\large\bfseries\color{secondary}}
+{\thesubsection}
+{1em}
+{}
+
+\titleformat{\subsubsection}
+{\normalsize\bfseries\color{darkgray}}
+{\thesubsubsection}
+{1em}
+{}
+
+% Configuration des captions (style académique)
+\captionsetup{
+	font={small,rm},
+	labelfont={bf,color=primary},
+	textfont={color=textcolor},
+	format=hang,
+	justification=justified,
+	singlelinecheck=false,
+	margin=1cm
+}
 
 %\makenomenclature
 \RequirePackage{fancyhdr}
-%\pagestyle{fancy}
-%\fancyheadoffset{1cm}
-%\setlength{\headheight}{2cm}
 \RequirePackage{url}
-\RequirePackage[hidelinks]{hyperref}%Paquet pour insérer légendes dans des sous-figures comme Figure 1a, 1b
-\RequirePackage[left=2.5cm,right=2.5cm,top=2cm,bottom=3.5cm]{geometry} %Configuration de la page
+\RequirePackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=3cm]{geometry}
 
 %-------------------- Informations sur le rapport ----------------------
 
@@ -49,48 +155,67 @@
 	\makenomenclature
 	\pagestyle{fancy}
 	\fancyheadoffset{1cm}
-	\setlength{\headheight}{2cm}
-	\lhead{\includegraphics[scale=0.1]{logos/logo_ECL.jpg}} %Affichage de l'image au top de la page
-	\rhead{\textit{\nouppercase{\leftmark}}}
-	\rfoot{\thepage}
-	\cfoot{\textcolor{blue}{\textbf{\titre}}}
-	\lfoot{\UE}
-}
-\newcommand{\fairepagedegarde}{
-	\begin{titlepage}
-		% date complète avec jour
-		
-		% \ThisLRCornerWallPaper{0.9}{logos/Stein7.jpg} % Réduire l'opacité de l'image de fond
-		\centering %Centraliser le contenu
-		\includegraphics[width=0.8\textwidth]{logos/logo.png}\par\vspace{1cm} %Insertion du logo
-		{\scshape\LARGE \textcolor{black}{Université de Lille} \par} %Nom de l'université en noir
-		\vspace{1.5cm}%Espace de 1,5cm
-		{\scshape\Large \textcolor{black}{\UE \\ \sujet \\ \vspace{0.3cm}  Rapport}\par} %sous-titre en noir
-		\vspace{1cm}%Espace de 1cm
-		\rule{\linewidth}{0.2 mm} \\[0.4 cm]
-		{\huge\bfseries \textcolor{blue}{\titre} \par} \
-		\rule{\linewidth}{0.2 mm} \\[1.5 cm]
-		\vspace{1cm}%Espace de 3cm
-		
-		\begin{minipage}{0.5\textwidth} %Minipage pour faire deux colonnes
-			\begin{flushleft} \large %Envoyer à gauche
-				\emph{\textbf{Élèves :}}\\ %Pour le titre au dessus des noms à gauche
-				\textcolor{black}{\eleves}\\ %Remplacer pour chacun en noir
-			\end{flushleft}
-		\end{minipage}
-		~
-		\begin{minipage}{0.4\textwidth}
-			\begin{flushright} \large
-				\emph{\textbf{Enseignant :}} \\
-				\textcolor{black}{\enseignant} \\ %Enseignant en noir
-			\end{flushright}
-		\end{minipage}\\[4cm]
-		
-		\vfill
-		{\large \today\par}
-	\end{titlepage}
+	\setlength{\headheight}{2.5cm}
+	\fancyhf{}
+	\lhead{\includegraphics[scale=0.1]{logos/logo_ECL.jpg}}
+	\rhead{\small\textit{\nouppercase{\leftmark}}}
+	\rfoot{\small\color{darkgray}\thepage}
+	\cfoot{\small\color{primary}\textbf{\titre}}
+	\lfoot{\small\color{darkgray}\UE}
+	\renewcommand{\headrulewidth}{0.5pt}
+	\renewcommand{\footrulewidth}{0.5pt}
+	\renewcommand{\headrule}{\hbox to\headwidth{\color{primary}\leaders\hrule height \headrulewidth\hfill}}
+	\renewcommand{\footrule}{\hbox to\headwidth{\color{primary}\leaders\hrule height \footrulewidth\hfill}}
 }
 
+\newcommand{\fairepagedegarde}{
+	\begin{titlepage}
+		\centering
+		\vspace*{2cm}
+		\includegraphics[width=0.6\textwidth]{logos/logo.png}\par
+		\vspace{2cm}
+		{\Large\textbf{\textcolor{primary}{Université de Lille}} \par}
+		\vspace{1.5cm}
+		{\large\textcolor{secondary}{\UE} \par}
+		{\large\textcolor{secondary}{\sujet} \par}
+		\vspace{0.5cm}
+		{\large\textcolor{secondary}{Rapport} \par}
+		\vspace{2cm}
+		
+		\begin{tcolorbox}[
+			colback=white,
+			colframe=primary,
+			boxrule=1.5pt,
+			arc=0pt,
+			left=2cm,
+			right=2cm,
+			top=1cm,
+			bottom=1cm,
+			width=0.8\textwidth
+			]
+			{\huge\bfseries\textcolor{primary}{\titre}}
+		\end{tcolorbox}
+		
+		\vspace{3cm}
+		
+		\begin{minipage}{0.45\textwidth}
+			\begin{flushleft}
+				\textbf{Étudiants :}\\
+				\textcolor{textcolor}{\eleves}
+			\end{flushleft}
+		\end{minipage}
+		\hfill
+		\begin{minipage}{0.45\textwidth}
+			\begin{flushright}
+				\textbf{Enseignant :}\\
+				\textcolor{textcolor}{\enseignant}
+			\end{flushright}
+		\end{minipage}
+		
+		\vfill
+		{\large\textcolor{darkgray}{\today}}
+	\end{titlepage}
+}
 
 \newcommand{\tabledematieres}{
 	\tableofcontents
@@ -100,203 +225,484 @@
 \newcommand{\insererfigure}[4]{
 	\begin{figure}[H]
 		\centering
-		\includegraphics[height=#2]{#1}
+		\begin{tcolorbox}[
+			colback=white,
+			colframe=mediumgray,
+			boxrule=1pt,
+			arc=0pt,
+			left=15pt,
+			right=15pt,
+			top=15pt,
+			bottom=10pt
+			]
+			\includegraphics[height=#2]{#1}
+		\end{tcolorbox}
 		\caption{#3}
 		\label{fig: #4}
 	\end{figure}
 }
 
-\newcommand{\stylishcircle}{%
-	\tikz[baseline=-.6ex] {
-		\shade[ball color=gray!30, draw=gray!70]
-		(0,0) circle (0.8ex);
-	}%
-}
-
 \newcommand{\merci}{
 	\vspace*{\fill}
 	\begin{center}
-		{\bfseries\LARGE Merci d'avoir consulté cette présentation}
+		\begin{tcolorbox}[
+			colback=primary,
+			colframe=primary,
+			boxrule=0pt,
+			arc=0pt,
+			left=40pt,
+			right=40pt,
+			top=30pt,
+			bottom=30pt,
+			width=0.7\textwidth
+			]
+			{\Large\bfseries\color{white}Merci pour votre attention}
+		\end{tcolorbox}
 	\end{center}
 	\vspace*{\fill}
 }
 
-
+% Configuration des listes (style professionnel)
 \setlist[itemize]{
-	label=\stylishcircle,
-	labelsep=1.5em,
-	left=4em,              % indentation
-	itemsep=0.5\baselineskip,   % espace entre les items
-	parsep=0pt,            % pas d'espace supplémentaire entre paragraphes internes
-	topsep=0.5\baselineskip % espace avant et après la liste
+	label=\textbullet,
+	labelsep=0.5em,
+	left=1.5em,
+	itemsep=0.3\baselineskip,
+	parsep=0pt,
+	topsep=0.5\baselineskip
 }
 
-\newcounter{tseccounter}[subsection] % remet à zéro à chaque nouvelle subsection
+\setlist[enumerate]{
+	label=\textbf{\arabic*.},
+	labelsep=0.5em,
+	left=2em,
+	itemsep=0.3\baselineskip,
+	parsep=0pt,
+	topsep=0.5\baselineskip
+}
+
+% Compteur pour les sous-sections techniques
+\newcounter{tseccounter}[subsection]
 \renewcommand{\thetseccounter}{\arabic{tseccounter}}
 
+% Sous-section technique avec numérotation
 \makeatletter
 \newcommand{\tsec}[1]{%
 	\refstepcounter{tseccounter}%
 	\par\vspace{1\baselineskip}%
 	\noindent
-	{\normalsize\bfseries \thetseccounter. #1\par}%
-	\vspace{1\baselineskip}%
+	\begin{tcolorbox}[
+		colback=lightgray,
+		colframe=secondary,
+		boxrule=0pt,
+		arc=0pt,
+		left=20pt,
+		right=20pt,
+		top=12pt,
+		bottom=12pt,
+		leftrule=3pt
+		]
+		{\normalsize\bfseries\color{primary}\thetseccounter. #1}
+	\end{tcolorbox}
+	\vspace{0.5\baselineskip}%
 }
 \makeatother
 
-
+% Sous-section technique sans numérotation
 \makeatletter
 \newcommand{\tsecnonum}[1]{%
 	\par\vspace{1\baselineskip}%
 	\noindent
-	{\normalsize\bfseries #1\par}%
-	\vspace{1\baselineskip}%
+	\begin{tcolorbox}[
+		colback=lightgray,
+		colframe=darkgray,
+		boxrule=0pt,
+		arc=0pt,
+		left=20pt,
+		right=20pt,
+		top=12pt,
+		bottom=12pt,
+		leftrule=3pt
+		]
+		{\normalsize\bfseries\color{primary}#1}
+	\end{tcolorbox}
+	\vspace{0.5\baselineskip}%
 }
 \makeatother
 
-% saut de page à chaque section
-
+% Nouvelle page à chaque section
 \let\oldsection\section
 \renewcommand\section{%
-	\clearpage% ou \newpage
+	\clearpage
 	\oldsection}
 
-% Box de réponse
+% Boîtes d'information professionnelles
 
-% Définition de la boîte de réponse
+% Boîte de résultat
 \newtcolorbox{resultbox}{
-	colback=gray!10,       % fond clair
-	colframe=gray!60,      % bordure grise
-	boxrule=0.5pt,         % épaisseur de la bordure
-	arc=4pt,               % arrondi des coins
-	left=6pt,              % marge intérieure gauche
-	right=6pt,             % marge intérieure droite
-	top=4pt,               % marge intérieure haute
-	bottom=4pt,            % marge intérieure basse
-	before skip=10pt,      % espace avant la boîte
-	after skip=10pt        % espace après la boîte
+	enhanced,
+	colback=success!8,
+	colframe=success,
+	boxrule=1pt,
+	arc=0pt,
+	left=20pt,
+	right=20pt,
+	top=15pt,
+	bottom=15pt,
+	before skip=15pt,
+	after skip=15pt,
+	leftrule=4pt,
+	attach boxed title to top left={yshift=-12pt,xshift=20pt},
+	boxed title style={colback=success, arc=0pt, boxrule=0pt},
+	title={\color{white}\textbf{Résultat}},
+	fonttitle=\bfseries\small
 }
 
-% Définition de la boîte de comparaison
+% Boîte de comparaison
 \newtcolorbox{comparisonbox}{
-	colback=blue!10,       % Fond bleu clair
-	colframe=blue!60,      % Bordure bleue
-	boxrule=0.5pt,         % Épaisseur de la bordure
-	arc=8pt,               % Arrondi des coins
-	left=6pt,              % Marge intérieure gauche
-	right=6pt,             % Marge intérieure droite
-	top=4pt,               % Marge intérieure haute
-	bottom=4pt,            % Marge intérieure basse
-	before skip=10pt,      % Espace avant la boîte
-	after skip=10pt,        % Espace après la boîte
-	drop shadow            % Ombre subtile
+	enhanced,
+	colback=accent!8,
+	colframe=accent,
+	boxrule=1pt,
+	arc=0pt,
+	left=20pt,
+	right=20pt,
+	top=15pt,
+	bottom=15pt,
+	before skip=15pt,
+	after skip=15pt,
+	leftrule=4pt,
+	attach boxed title to top left={yshift=-12pt,xshift=20pt},
+	boxed title style={colback=accent, arc=0pt, boxrule=0pt},
+	title={\color{white}\textbf{Comparaison}},
+	fonttitle=\bfseries\small
 }
 
-% Définition de la boîte d'observation
+% Boîte d'observation
 \newtcolorbox{observationbox}{
-	colback=red!10,      % Fond vert clair
-	colframe=red!60,     % Bordure verte
-	boxrule=0.5pt,         % Épaisseur de la bordure
-	arc=8pt,               % Arrondi des coins
-	left=6pt,              % Marge intérieure gauche
-	right=6pt,             % Marge intérieure droite
-	top=4pt,               % Marge intérieure haute
-	bottom=4pt,            % Marge intérieure basse
-	before skip=10pt,      % Espace avant la boîte
-	after skip=10pt,       % Espace après la boîte
-	drop shadow            % Ombre subtile
+	enhanced,
+	colback=warning!8,
+	colframe=warning,
+	boxrule=1pt,
+	arc=0pt,
+	left=20pt,
+	right=20pt,
+	top=15pt,
+	bottom=15pt,
+	before skip=15pt,
+	after skip=15pt,
+	leftrule=4pt,
+	attach boxed title to top left={yshift=-12pt,xshift=20pt},
+	boxed title style={colback=warning, arc=0pt, boxrule=0pt},
+	title={\color{white}\textbf{Observation}},
+	fonttitle=\bfseries\small
 }
 
-% Commande personnalisée pour l'observation
+% Boîte d'information
+\newtcolorbox{infobox}{
+	enhanced,
+	colback=secondary!8,
+	colframe=secondary,
+	boxrule=1pt,
+	arc=0pt,
+	left=20pt,
+	right=20pt,
+	top=15pt,
+	bottom=15pt,
+	before skip=15pt,
+	after skip=15pt,
+	leftrule=4pt,
+	attach boxed title to top left={yshift=-12pt,xshift=20pt},
+	boxed title style={colback=secondary, arc=0pt, boxrule=0pt},
+	title={\color{white}\textbf{Information}},
+	fonttitle=\bfseries\small
+}
+
+% Boîte d'attention
+\newtcolorbox{warningbox}{
+	enhanced,
+	colback=error!8,
+	colframe=error,
+	boxrule=1pt,
+	arc=0pt,
+	left=20pt,
+	right=20pt,
+	top=15pt,
+	bottom=15pt,
+	before skip=15pt,
+	after skip=15pt,
+	leftrule=4pt,
+	attach boxed title to top left={yshift=-12pt,xshift=20pt},
+	boxed title style={colback=error, arc=0pt, boxrule=0pt},
+	title={\color{white}\textbf{Attention}},
+	fonttitle=\bfseries\small
+}
+
+% Commandes pour les boîtes
 \newcommand{\obs}[1]{%
 	\begin{observationbox}
-		\textbf{Observation:} #1
+		#1
 	\end{observationbox}
 }
 
-% Commande personnalisée pour la comparaison
 \newcommand{\comp}[1]{%
 	\begin{comparisonbox}
-		\textbf{Comparaison:} #1
+		#1
 	\end{comparisonbox}
 }
 
-% Commande personnalisée
 \newcommand{\res}[1]{%
 	\begin{resultbox}
-		\textbf{Résultat:} #1
+		#1
 	\end{resultbox}
 }
 
-% Codebox tous langages
-% Style générique de listing
-
-% On définit un style de base générique, puis des styles spécifiques par langage
-
-\lstdefinestyle{sqlstyle}{
-	language=SQL,
-	basicstyle=\ttfamily\small\color{brown!80!black},
-	keywordstyle=\color{red!80!black}\bfseries,
-	commentstyle=\color{gray}\itshape,
-	stringstyle=\color{orange!90!black},
-	numbers=left,
-	numberstyle=\tiny\color{gray},
-	stepnumber=1,
-	numbersep=10pt,
-	breaklines=true,
-	showstringspaces=false,
+\newcommand{\info}[1]{%
+	\begin{infobox}
+		#1
+	\end{infobox}
 }
 
-\lstdefinestyle{pythonstyle}{
-	language=Python,
-	basicstyle=\ttfamily\small\color{blue!80!black},
-	keywordstyle=\color{teal!80!black}\bfseries,
-	commentstyle=\color{gray}\itshape,
-	stringstyle=\color{orange},
+\newcommand{\warning}[1]{%
+	\begin{warningbox}
+		#1
+	\end{warningbox}
+}
+
+% Styles de code professionnels
+\lstdefinestyle{basestyle}{
+	basicstyle=\ttfamily\small,
 	numbers=left,
-	numberstyle=\tiny\color{gray},
+	numberstyle=\tiny\color{darkgray},
 	stepnumber=1,
-	numbersep=10pt,
+	numbersep=15pt,
 	breaklines=true,
 	showstringspaces=false,
+	tabsize=4,
+	captionpos=b,
+	frame=none,
+	xleftmargin=25pt,
+	xrightmargin=10pt,
+	framexleftmargin=20pt,
+	framexrightmargin=5pt,
+	framexbottommargin=8pt,
+	framextopmargin=8pt
+}
+
+% Styles spécifiques par langage
+\lstdefinestyle{pythonstyle}{
+	style=basestyle,
+	language=Python,
+	backgroundcolor=\color{pythonbg},
+	basicstyle=\ttfamily\small\color{textcolor},
+	keywordstyle=\color{pythonframe}\bfseries,
+	commentstyle=\color{darkgray}\itshape,
+	stringstyle=\color{success},
+	identifierstyle=\color{textcolor},
+	numberstyle=\tiny\color{darkgray}
 }
 
 \lstdefinestyle{javastyle}{
+	style=basestyle,
 	language=Java,
-	basicstyle=\ttfamily\small\color{violet!80!black},
-	keywordstyle=\color{purple!90!black}\bfseries,
-	commentstyle=\color{gray}\itshape,
-	stringstyle=\color{orange!80!black},
-	numbers=left,
-	numberstyle=\tiny\color{gray},
-	stepnumber=1,
-	numbersep=10pt,
-	breaklines=true,
-	showstringspaces=false,
+	backgroundcolor=\color{javabg},
+	basicstyle=\ttfamily\small\color{textcolor},
+	keywordstyle=\color{javaframe}\bfseries,
+	commentstyle=\color{darkgray}\itshape,
+	stringstyle=\color{success},
+	identifierstyle=\color{textcolor},
+	numberstyle=\tiny\color{darkgray}
 }
 
+\lstdefinestyle{sqlstyle}{
+	style=basestyle,
+	language=SQL,
+	backgroundcolor=\color{sqlbg},
+	basicstyle=\ttfamily\small\color{textcolor},
+	keywordstyle=\color{sqlframe}\bfseries,
+	commentstyle=\color{darkgray}\itshape,
+	stringstyle=\color{success},
+	identifierstyle=\color{textcolor},
+	numberstyle=\tiny\color{darkgray}
+}
 
-% Puis, on modifie l’environnement codeboxlang pour appliquer ces styles selon la langue demandée
+\lstdefinestyle{cppstyle}{
+	style=basestyle,
+	language=C++,
+	backgroundcolor=\color{cppbg},
+	basicstyle=\ttfamily\small\color{textcolor},
+	keywordstyle=\color{cppframe}\bfseries,
+	commentstyle=\color{darkgray}\itshape,
+	stringstyle=\color{success},
+	identifierstyle=\color{textcolor},
+	numberstyle=\tiny\color{darkgray}
+}
 
+\lstdefinestyle{c++style}{
+	style=cppstyle
+}
+
+\lstdefinestyle{javascriptstyle}{
+	style=basestyle,
+	language=JavaScript,
+	backgroundcolor=\color{jsbg},
+	basicstyle=\ttfamily\small\color{textcolor},
+	keywordstyle=\color{jsframe}\bfseries,
+	commentstyle=\color{darkgray}\itshape,
+	stringstyle=\color{success},
+	identifierstyle=\color{textcolor},
+	numberstyle=\tiny\color{darkgray}
+}
+
+\lstdefinestyle{htmlstyle}{
+	style=basestyle,
+	language=HTML,
+	backgroundcolor=\color{htmlbg},
+	basicstyle=\ttfamily\small\color{textcolor},
+	keywordstyle=\color{htmlframe}\bfseries,
+	commentstyle=\color{darkgray}\itshape,
+	stringstyle=\color{success},
+	identifierstyle=\color{textcolor},
+	numberstyle=\tiny\color{darkgray}
+}
+
+\lstdefinestyle{cssstyle}{
+	style=basestyle,
+	language=CSS,
+	backgroundcolor=\color{cssbg},
+	basicstyle=\ttfamily\small\color{textcolor},
+	keywordstyle=\color{cssframe}\bfseries,
+	commentstyle=\color{darkgray}\itshape,
+	stringstyle=\color{success},
+	identifierstyle=\color{textcolor},
+	numberstyle=\tiny\color{darkgray}
+}
+
+\lstdefinestyle{bashstyle}{
+	style=basestyle,
+	language=bash,
+	backgroundcolor=\color{bashbg},
+	basicstyle=\ttfamily\small\color{textcolor},
+	keywordstyle=\color{bashframe}\bfseries,
+	commentstyle=\color{darkgray}\itshape,
+	stringstyle=\color{success},
+	identifierstyle=\color{textcolor},
+	numberstyle=\tiny\color{darkgray}
+}
+
+\lstdefinestyle{rstyle}{
+	style=basestyle,
+	language=R,
+	backgroundcolor=\color{rbg},
+	basicstyle=\ttfamily\small\color{textcolor},
+	keywordstyle=\color{rframe}\bfseries,
+	commentstyle=\color{darkgray}\itshape,
+	stringstyle=\color{success},
+	identifierstyle=\color{textcolor},
+	numberstyle=\tiny\color{darkgray}
+}
+
+\lstdefinestyle{matlabstyle}{
+	style=basestyle,
+	language=Matlab,
+	backgroundcolor=\color{matlabbg},
+	basicstyle=\ttfamily\small\color{textcolor},
+	keywordstyle=\color{matlabframe}\bfseries,
+	commentstyle=\color{darkgray}\itshape,
+	stringstyle=\color{success},
+	identifierstyle=\color{textcolor},
+	numberstyle=\tiny\color{darkgray}
+}
+
+% Fonction pour obtenir les couleurs selon le langage
+\newcommand{\getlangframe}[1]{%
+	\ifstrequal{#1}{python}{pythonframe}{%
+		\ifstrequal{#1}{java}{javaframe}{%
+			\ifstrequal{#1}{sql}{sqlframe}{%
+				\ifstrequal{#1}{cpp}{cppframe}{%
+					\ifstrequal{#1}{c++}{cppframe}{%
+						\ifstrequal{#1}{javascript}{jsframe}{%
+							\ifstrequal{#1}{html}{htmlframe}{%
+								\ifstrequal{#1}{css}{cssframe}{%
+									\ifstrequal{#1}{bash}{bashframe}{%
+										\ifstrequal{#1}{r}{rframe}{%
+											\ifstrequal{#1}{matlab}{matlabframe}{%
+												codeframe%
+											}%
+										}%
+									}%
+								}%
+							}%
+						}%
+					}%
+				}%
+			}%
+		}%
+	}%
+}
+
+% Environnement de code avec style professionnel
 \newtcblisting{codeboxlang}[2][]{
 	enhanced,
-	arc=12pt,
-	colback=green!5!white,
-	colframe=green!60!black,
-	coltext=black,
-	coltitle=red,
+	arc=0pt,
 	boxrule=1pt,
-	top=10pt,bottom=10pt,left=12pt,right=12pt,
-	attach boxed title to top left={yshift=-10pt,xshift=12pt},
-	boxed title style={colback=pink!20!white, boxrule=0pt, arc=6pt},
-	title={\faIcon{code} \textcolor{blue}{\textbf{\large \textsc{#2} Code}}},
+	top=20pt,
+	bottom=20pt,
+	left=0pt,
+	right=0pt,
+	attach boxed title to top left={yshift=-15pt,xshift=20pt},
+	boxed title style={
+		boxrule=0pt,
+		arc=0pt,
+		left=15pt,
+		right=15pt,
+		top=8pt,
+		bottom=8pt
+	},
 	listing only,
 	listing options={
 		language=#2,
+		style=#2style,
 		literate={\\}{\textbackslash}1 {_}{\_}1 {^}{\^}1 {|}{\textbar}1 {~}{\textasciitilde}1,
-		style=#2 style, % applique le style correspondant
 	},
-	drop shadow,
-	fonttitle=\bfseries,
+	fonttitle=\bfseries\small,
+	breakable,
+	colback=codebg,
+	colframe=\getlangframe{#2},
+	coltext=textcolor,
+	coltitle=white,
+	boxed title style={colback=\getlangframe{#2}},
+	title={\textbf{\MakeUppercase{#2}}},
 	#1
 }
+
+% Configuration de l'espacement pour un aspect professionnel
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.4\baselineskip}
+\onehalfspacing
+
+% Amélioration de la mise en page
+\raggedbottom
+\clubpenalty=10000
+\widowpenalty=10000
+
+% Configuration des équations
+\numberwithin{equation}{section}
+
+% Configuration des figures et tableaux
+\numberwithin{figure}{section}
+\numberwithin{table}{section}
+
+% Configuration des tableaux professionnels
+\renewcommand{\arraystretch}{1.2}
+
+% Environnement pour les définitions
+\newtheorem{definition}{Définition}[section]
+\newtheorem{theorem}{Théorème}[section]
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemme}{Lemme}[section]
+
+% Configuration des théorèmes avec style professionnel
+\theoremstyle{definition}
+\newtheorem{exemple}{Exemple}[section]
+\newtheorem{remarque}{Remarque}[section]

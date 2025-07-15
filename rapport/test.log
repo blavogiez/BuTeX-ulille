@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.18)  15 JUL 2025 19:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.18)  15 JUL 2025 20:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -954,37 +954,7 @@ Package: enumitem 2025/02/06 v3.11 Customized lists
 \enit@inbox=\box100
 \enit@count@id=\count372
 \enitdp@description=\count373
-)
-(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\inconsolata.s
-ty
-Package: inconsolata 2019/05/17 v1.12
- `inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe)
-\zifour@ocount=\count374
-)
-(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
-Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
-
-\f@nch@headwidth=\skip71
-\f@nch@offset@elh=\skip72
-\f@nch@offset@erh=\skip73
-\f@nch@offset@olh=\skip74
-\f@nch@offset@orh=\skip75
-\f@nch@offset@elf=\skip76
-\f@nch@offset@erf=\skip77
-\f@nch@offset@olf=\skip78
-\f@nch@offset@orf=\skip79
-\f@nch@height=\skip80
-\f@nch@footalignment=\skip81
-\f@nch@widthL=\skip82
-\f@nch@widthC=\skip83
-\f@nch@widthR=\skip84
-\@temptokenb=\toks51
-)
-(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
-\Urlmuskip=\muskip17
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+) (C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2023-11-26 v7.01g Hypertext links for LaTeX
 
 (C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefineke
@@ -1010,11 +980,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 string.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count375
+\c@section@level=\count374
 )
 \@linkdim=\dimen317
-\Hy@linkcounter=\count376
-\Hy@pagecounter=\count377
+\Hy@linkcounter=\count375
+\Hy@pagecounter=\count376
 
 (C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2023-11-26 v7.01g Hyperref: PDFDocEncoding definition (HO)
@@ -1024,7 +994,7 @@ Now handling font encoding PD1 ...
 (C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count378
+\Hy@SavedSpaceFactor=\count377
 
 (C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2023-11-26 v7.01g Hyperref: PDF Unicode definition (HO)
@@ -1038,7 +1008,12 @@ Package hyperref Info: Plain pages OFF on input line 4196.
 Package hyperref Info: Backreferencing OFF on input line 4201.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4448.
-\c@Hy@tempcnt=\count379
+\c@Hy@tempcnt=\count378
+
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
 LaTeX Info: Redefining \url on input line 4786.
 \XeTeXLinkMargin=\dimen318
 
@@ -1050,7 +1025,7 @@ ty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count380
+\Fld@menulength=\count379
 \Field@Width=\dimen319
 \Fld@charsize=\dimen320
 Package hyperref Info: Hyper figures OFF on input line 6065.
@@ -1065,9 +1040,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6095.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count381
-\c@Item=\count382
-\c@Hfootnote=\count383
+\Hy@abspage=\count380
+\c@Item=\count381
+\c@Hfootnote=\count382
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -1079,8 +1054,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count384
-\c@bookmark@seq@number=\count385
+\Fld@listcount=\count383
+\c@bookmark@seq@number=\count384
 
 (C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilec
 heck.sty
@@ -1093,7 +1068,346 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
-\Hy@SectionHShift=\skip85
+\Hy@SectionHShift=\skip71
+)
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.sty
+Package: microtype 2025/02/11 v3.2a Micro-typographical refinements (RS)
+\MT@toks=\toks51
+\MT@tempbox=\box101
+\MT@count=\count385
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1087.
+LaTeX Info: Redefining \leftprotrusion on input line 1088.
+\MT@prot@toks=\toks52
+LaTeX Info: Redefining \rightprotrusion on input line 1107.
+LaTeX Info: Redefining \textls on input line 1449.
+\MT@outer@kern=\dimen321
+LaTeX Info: Redefining \microtypecontext on input line 2053.
+LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
+\MT@listname@count=\count386
+
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdfte
+x.def
+File: microtype-pdftex.def 2025/02/11 v3.2a Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 944.
+LaTeX Info: Redefining \lslig on input line 944.
+\MT@outer@space=\skip72
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cfg
+File: microtype.cfg 2025/02/11 v3.2a microtype main configuration file (RS)
+)
+LaTeX Info: Redefining \microtypesetup on input line 3065.
+) (C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box102
+\beforetitleunit=\skip73
+\aftertitleunit=\skip74
+\ttl@plus=\dimen322
+\ttl@minus=\dimen323
+\ttl@toksa=\toks53
+\titlewidth=\dimen324
+\titlewidthlast=\dimen325
+\titlewidthfirst=\dimen326
+)
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.revis
+ion.tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.code.
+tex
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscore.c
+ode.tex
+\t@pgfplots@toka=\toks54
+\t@pgfplots@tokb=\toks55
+\t@pgfplots@tokc=\toks56
+\pgfplots@tmpa=\dimen327
+\c@pgfplots@coordindex=\count387
+\c@pgfplots@scanlineindex=\count388
+
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfplotssy
+sgeneric.code.tex))
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfplotsl
+ibrary.code.tex)
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompatib
+\pgfplotsoldpgfsupp_loader.code.tex
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibrar
+yfpu.code.tex)
+Package pgfplots: loading complementary utilities for your pgf version...
+\t@pgf@toka=\toks57
+\t@pgf@tokb=\toks58
+\t@pgf@tokc=\toks59
+
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompatib
+\pgfplotsoldpgfsupp_pgfutil-common-lists.tex))
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsu
+til.code.tex
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\
+pgfplotsliststructure.code.tex)
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\
+pgfplotsliststructureext.code.tex)
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\
+pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count389
+)
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\
+pgfplotsmatrix.code.tex)
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgfpl
+otstableshared.code.tex
+\c@pgfplotstable@counta=\count390
+\t@pgfplotstable@a=\toks60
+)
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\
+pgfplotsdeque.code.tex)
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsb
+inary.code.tex
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsb
+inary.data.code.tex))
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsu
+til.verb.code.tex)
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibrar
+ypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count391
+
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibrary
+pgfplots.surfshading.pgfsys-pdftex.def)))
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsc
+olormap.code.tex
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsc
+olor.code.tex))
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsstacke
+dplots.code.tex)
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsplotha
+ndlers.code.tex
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshpl
+othandler.code.tex
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshpl
+otimage.code.tex)))
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.scali
+ng.code.tex)
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscoordp
+rocessing.code.tex)
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.error
+bars.code.tex)
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.marke
+rs.code.tex)
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsticks.
+code.tex)
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.paths
+.code.tex)
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/
+libraries\tikzlibrarydecorations.code.tex
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulede
+corations.code.tex
+\pgfdecoratedcompleteddistance=\dimen328
+\pgfdecoratedremainingdistance=\dimen329
+\pgfdecoratedinputsegmentcompleteddistance=\dimen330
+\pgfdecoratedinputsegmentremainingdistance=\dimen331
+\pgf@decorate@distancetomove=\dimen332
+\pgf@decorate@repeatstate=\count392
+\pgfdecorationsegmentamplitude=\dimen333
+\pgfdecorationsegmentlength=\dimen334
+)
+\tikz@lib@dec@box=\box103
+)
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/
+libraries\tikzlibrarydecorations.pathmorphing.code.tex
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decoratio
+ns\pgflibrarydecorations.pathmorphing.code.tex))
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/
+libraries\tikzlibrarydecorations.pathreplacing.code.tex
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decoratio
+ns\pgflibrarydecorations.pathreplacing.code.tex))
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlibra
+rypgfplots.contourlua.code.tex)
+\pgfplots@numplots=\count393
+\pgfplots@xmin@reg=\dimen335
+\pgfplots@xmax@reg=\dimen336
+\pgfplots@ymin@reg=\dimen337
+\pgfplots@ymax@reg=\dimen338
+\pgfplots@zmin@reg=\dimen339
+\pgfplots@zmax@reg=\dimen340
+)
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/
+libraries\tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibrar
+yplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen341
+\lightrulewidth=\dimen342
+\cmidrulewidth=\dimen343
+\belowrulesep=\dimen344
+\belowbottomsep=\dimen345
+\aboverulesep=\dimen346
+\abovetopsep=\dimen347
+\cmidrulesep=\dimen348
+\cmidrulekern=\dimen349
+\defaultaddspace=\dimen350
+\@cmidla=\count394
+\@cmidlb=\count395
+\@aboverulesep=\dimen351
+\@belowrulesep=\dimen352
+\@thisruleclass=\count396
+\@lastruleclass=\count397
+\@thisrulewidth=\dimen353
+)
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip75
+\multirow@cntb=\count398
+\multirow@dima=\skip76
+\bigstrutjot=\dimen354
+)
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
+\LTleft=\skip77
+\LTright=\skip78
+\LTpre=\skip79
+\LTpost=\skip80
+\LTchunksize=\count399
+\LTcapwidth=\dimen355
+\LT@head=\box104
+\LT@firsthead=\box105
+\LT@foot=\box106
+\LT@lastfoot=\box107
+\LT@gbox=\box108
+\LT@cols=\count400
+\LT@rows=\count401
+\c@LT@tables=\count402
+\c@LT@chunks=\count403
+\LT@p@ftn=\toks61
+)
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
+\everycr=\toks62
+\minrowclearance=\skip81
+\rownum=\count404
+)
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip82
+\RaggedLeftLeftskip=\skip83
+\RaggedRightLeftskip=\skip84
+\CenteringRightskip=\skip85
+\RaggedLeftRightskip=\skip86
+\RaggedRightRightskip=\skip87
+\CenteringParfillskip=\skip88
+\RaggedLeftParfillskip=\skip89
+\RaggedRightParfillskip=\skip90
+\JustifyingParfillskip=\skip91
+\CenteringParindent=\skip92
+\RaggedLeftParindent=\skip93
+\RaggedRightParindent=\skip94
+\JustifyingParindent=\skip95
+)
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
+Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
+\csq@reset=\count405
+\csq@gtype=\count406
+\csq@glevel=\count407
+\csq@qlevel=\count408
+\csq@maxlvl=\count409
+\csq@tshold=\count410
+\csq@ltx@everypar=\toks63
+
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
+File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg
+File: csquotes.cfg 
+))
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/parskip\parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+)
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/tools\theorem.sty
+Package: theorem 2023/07/05 v2.2c Theorem extension package (FMi)
+\theorem@style=\toks64
+\theorem@bodyfont=\toks65
+\theorempreskipamount=\skip96
+\theorempostskipamount=\skip97
+
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/tools\thp.sty
+File: thp.sty 2023/07/05 v2.2c Theorem extension package (FMi)
+))
+Package hyperref Info: Option `colorlinks' set `true' on input line 108.
+
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip98
+\f@nch@offset@elh=\skip99
+\f@nch@offset@erh=\skip100
+\f@nch@offset@olh=\skip101
+\f@nch@offset@orh=\skip102
+\f@nch@offset@elf=\skip103
+\f@nch@offset@erf=\skip104
+\f@nch@offset@olf=\skip105
+\f@nch@offset@orf=\skip106
+\f@nch@height=\skip107
+\f@nch@footalignment=\skip108
+\f@nch@widthL=\skip109
+\f@nch@widthC=\skip110
+\f@nch@widthR=\skip111
+\@temptokenb=\toks66
 )
 (C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -1101,71 +1415,77 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count386
-\Gm@cntv=\count387
-\c@Gm@tempcnt=\count388
-\Gm@bindingoffset=\dimen321
-\Gm@wd@mp=\dimen322
-\Gm@odd@mp=\dimen323
-\Gm@even@mp=\dimen324
-\Gm@layoutwidth=\dimen325
-\Gm@layoutheight=\dimen326
-\Gm@layouthoffset=\dimen327
-\Gm@layoutvoffset=\dimen328
-\Gm@dimlist=\toks52
+\Gm@cnth=\count411
+\Gm@cntv=\count412
+\c@Gm@tempcnt=\count413
+\Gm@bindingoffset=\dimen356
+\Gm@wd@mp=\dimen357
+\Gm@odd@mp=\dimen358
+\Gm@even@mp=\dimen359
+\Gm@layoutwidth=\dimen360
+\Gm@layoutheight=\dimen361
+\Gm@layouthoffset=\dimen362
+\Gm@layoutvoffset=\dimen363
+\Gm@dimlist=\toks67
 
 (C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
-\c@tseccounter=\count389
+\c@tseccounter=\count414
+\c@definition=\count415
+\c@theorem=\count416
+\c@proposition=\count417
+\c@lemme=\count418
+
+
+LaTeX Warning: Unknown theoremstyle `definition'. Using `plain' on input line 7
+06.
+
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 70
+6.
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty
-(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3key
-s2e.sty
-(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2024-01-04 L3 programming layer (loader) 
+\c@exemple=\count419
+\c@remarque=\count420
+)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'french'.
 
 (C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdfte
 x.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count390
-\l__pdf_internal_box=\box101
-))
-Package: l3keys2e 2023-10-10 LaTeX2e option processing using LaTeX3 keys
-)
-Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count391
-\l__lipsum_a_int=\count392
-\l__lipsum_b_int=\count393
-
-(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex))
-(test.aux)
+\l__color_backend_stack_int=\count421
+\l__pdf_internal_box=\box109
+) (test.aux)
 \openout1 = `test.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Info: Redefining \degres on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Info: Redefining \degres on input line 12.
 Package french.ldf Info: Setting StandardItemizeEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 10.
+(french.ldf)             reported on input line 12.
 Package french.ldf Info: Setting StandardEnumerateEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 10.
-LaTeX Info: Redefining \up on input line 10.
+(french.ldf)             reported on input line 12.
+LaTeX Info: Redefining \up on input line 12.
 
 (C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\transl
 ations-basic-dictionary-french.trsl
@@ -1173,21 +1493,21 @@ File: translations-basic-dictionary-french.trsl (french translation file `trans
 lations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `french'. on input line 10.
+or `french'. on input line 12.
 
 (C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count394
-\scratchdimen=\dimen329
-\scratchbox=\box102
-\nofMPsegments=\count395
-\nofMParguments=\count396
-\everyMPshowfont=\toks53
-\MPscratchCnt=\count397
-\MPscratchDim=\dimen330
-\MPnumerator=\count398
-\makeMPintoPDFobject=\count399
-\everyMPtoPDFconversion=\toks54
+\scratchcounter=\count422
+\scratchdimen=\dimen364
+\scratchbox=\box110
+\nofMPsegments=\count423
+\nofMParguments=\count424
+\everyMPshowfont=\toks68
+\MPscratchCnt=\count425
+\MPscratchDim=\dimen365
+\MPnumerator=\count426
+\makeMPintoPDFobject=\count427
+\everyMPtoPDFconversion=\toks69
 )
 (C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-bas
 e.sty
@@ -1201,13 +1521,55 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+ (C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count400
-Package hyperref Info: Link coloring OFF on input line 10.
- (test.out) (test.out)
+\c@lstlisting=\count428
+Package hyperref Info: Link coloring ON on input line 12.
+(test.out) (test.out)
 \@outlinefile=\write5
 \openout5 = `test.out'.
 
+LaTeX Info: Redefining \microtypecontext on input line 12.
+Package microtype Info: Applying patch `item' on input line 12.
+Package microtype Info: Applying patch `toc' on input line 12.
+Package microtype Info: Applying patch `eqnum' on input line 12.
+
+
+Package microtype Warning: Unable to apply patch `footnote' on input line 12.
+
+Package microtype Info: Applying patch `verbatim' on input line 12.
+LaTeX Info: Redefining \microtypesetup on input line 12.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 12.
+Package microtype Info: Tracking enabled.
+Package microtype Info: Using default tracking set `smallcaps'.
+Package microtype Info: Adjustment of interword spacing enabled.
+
+Package microtype Warning: You are using the `ragged2e' package.
+(microtype)                Adjustment of interword spacing may lead to
+(microtype)                undesired results when used with `ragged2e'.
+(microtype)                In this case, disable the `spacing' option.
+
+Package microtype Info: Using default spacing set `alltext-nott'.
+Package microtype Info: Adjustment of character kerning enabled.
+Package microtype Info: Using default kerning set `alltext'.
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
+ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
+your preamble.
+ on input line 12.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1218,14 +1580,14 @@ Package hyperref Info: Link coloring OFF on input line 10.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
-* v-part:(T,H,B)=(56.9055pt, 688.5567pt, 99.58464pt)
+* v-part:(T,H,B)=(71.13188pt, 688.5567pt, 85.35826pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=455.24411pt
 * \textheight=688.5567pt
 * \oddsidemargin=-1.1381pt
 * \evensidemargin=-1.1381pt
-* \topmargin=-52.36449pt
+* \topmargin=-38.1381pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -1243,76 +1605,218 @@ Package hyperref Info: Link coloring OFF on input line 10.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+<logos/logo.png, id=114, 1204.5pt x 232.87pt>
+File: logos/logo.png Graphic file (type png)
+<use logos/logo.png>
+Package pdftex.def Info: logos/logo.png  used on input line 15.
+(pdftex.def)             Requested size: 273.14923pt x 52.80922pt.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+5.
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+5.
+
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+15.
+
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+15.
+
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 15.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 15.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 15.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 15.
+
+
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 15.
+
+
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
+5.
+
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 15.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 15.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 15.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 15.
+ [1
+
+{C:/Users/lab/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/lab/Ap
+pData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./logos/logo.png>] [
+2]
 \@nomenclaturefile=\write6
 \openout6 = `test.nlo'.
 
-Package nomencl Info: Writing nomenclature file test.nlo on input line 20.
-<logos/logo.png, id=58, 1204.5pt x 232.87pt>
-File: logos/logo.png Graphic file (type png)
-<use logos/logo.png>
-Package pdftex.def Info: logos/logo.png  used on input line 21.
-(pdftex.def)             Requested size: 364.19667pt x 70.4123pt.
-[1
+Package nomencl Info: Writing nomenclature file test.nlo on input line 18.
 
-{C:/Users/lab/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./logos/logo.p
-ng>] (test.toc)
+(test.toc)
 \tf@toc=\write7
 \openout7 = `test.toc'.
 
-<logos/logo_ECL.jpg, id=76, 1204.5pt x 232.87pt>
+<logos/logo_ECL.jpg, id=148, 1204.5pt x 232.87pt>
 File: logos/logo_ECL.jpg Graphic file (type jpg)
 <use logos/logo_ECL.jpg>
-Package pdftex.def Info: logos/logo_ECL.jpg  used on input line 22.
+Package pdftex.def Info: logos/logo_ECL.jpg  used on input line 21.
 (pdftex.def)             Requested size: 120.45705pt x 23.28836pt.
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 21.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.22 \tabledematieres
-                      [1
+l.21 	\tabledematieres
+                       [1
 
  <./logos/logo_ECL.jpg>]
-LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 31
-.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 4
+2.
 
-(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\t1zi4.fd
-File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 12.0pt on input line 31.
 File: logos/logo_ECL.jpg Graphic file (type jpg)
 <use logos/logo_ECL.jpg>
-Package pdftex.def Info: logos/logo_ECL.jpg  used on input line 35.
+Package pdftex.def Info: logos/logo_ECL.jpg  used on input line 54.
 (pdftex.def)             Requested size: 120.45705pt x 23.28836pt.
 
-[2
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.54 		\item L
+              e deuxième suit logiquement. [2
 
-{C:/Users/lab/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4-t1-0
-.enc}]
+{C:/Users/lab/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
+File: logos/logo_ECL.jpg Graphic file (type jpg)
+<use logos/logo_ECL.jpg>
+Package pdftex.def Info: logos/logo_ECL.jpg  used on input line 66.
+(pdftex.def)             Requested size: 120.45705pt x 23.28836pt.
+ [3]
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 106.
+File: logos/logo_ECL.jpg Graphic file (type jpg)
+<use logos/logo_ECL.jpg>
+Package pdftex.def Info: logos/logo_ECL.jpg  used on input line 107.
+(pdftex.def)             Requested size: 120.45705pt x 23.28836pt.
+ [4
+
+{C:/Users/lab/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C
+:/Users/lab/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/User
+s/lab/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/
+lab/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}]
+File: logos/logo_ECL.jpg Graphic file (type jpg)
+<use logos/logo_ECL.jpg>
+Package pdftex.def Info: logos/logo_ECL.jpg  used on input line 111.
+(pdftex.def)             Requested size: 120.45705pt x 23.28836pt.
+ [5]
+File: logos/logo.png Graphic file (type png)
+<use logos/logo.png>
+Package pdftex.def Info: logos/logo.png  used on input line 118.
+(pdftex.def)             Requested size: 588.66632pt x 113.81102pt.
+
+Overfull \hbox (171.11273pt too wide) in paragraph at lines 118--118
+[][] 
+ []
+
+
+LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
+(Font)              using `T1/lmr/bx/n' instead on input line 118.
+
+File: logos/logo.png Graphic file (type png)
+<use logos/logo.png>
+Package pdftex.def Info: logos/logo.png  used on input line 126.
+(pdftex.def)             Requested size: 163.88739pt x 31.68481pt.
+File: logos/logo_ECL.jpg Graphic file (type jpg)
+<use logos/logo_ECL.jpg>
+Package pdftex.def Info: logos/logo_ECL.jpg  used on input line 133.
+(pdftex.def)             Requested size: 163.88739pt x 31.68481pt.
+File: logos/logo_ECL.jpg Graphic file (type jpg)
+<use logos/logo_ECL.jpg>
+Package pdftex.def Info: logos/logo_ECL.jpg  used on input line 161.
+(pdftex.def)             Requested size: 120.45705pt x 23.28836pt.
+[6
+
+]
+File: logos/logo_ECL.jpg Graphic file (type jpg)
+<use logos/logo_ECL.jpg>
+Package pdftex.def Info: logos/logo_ECL.jpg  used on input line 164.
+(pdftex.def)             Requested size: 120.45705pt x 23.28836pt.
+ [7]
+
+! Package xcolor Error: Undefined color `\ifstrequal {python}{python}{pythonfra
+me}{\ifstrequal {python}{java}{javaframe}{\ifstrequal {python}{sql}{sqlframe}{\
+ifstrequal {python}{cpp}{cppframe}{\ifstrequal {python}{c++}{cppframe}{\ifstreq
+ual {python}{javascript}{jsframe}{\ifstrequal {python}{html}{htmlframe}{\ifstre
+qual {python}{css}{cssframe}{\ifstrequal {python}{bash}{bashframe}{\ifstrequal 
+{python}{r}{rframe}{\ifstrequal {python}{matlab}{matlabframe}{codeframe}}}}}}}}
+}}}'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.190 	\begin{codeboxlang}{python}
+                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 \g__tcobox_out_iow=\write8
 \openout8 = `test.listing'.
 
 
-(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2023/02/27 1.9 listings language file
-)
-LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 10.95pt on input line 44.
+! Package xcolor Error: Undefined color `\ifstrequal {python}{python}{pythonfra
+me}{\ifstrequal {python}{java}{javaframe}{\ifstrequal {python}{sql}{sqlframe}{\
+ifstrequal {python}{cpp}{cppframe}{\ifstrequal {python}{c++}{cppframe}{\ifstreq
+ual {python}{javascript}{jsframe}{\ifstrequal {python}{html}{htmlframe}{\ifstre
+qual {python}{css}{cssframe}{\ifstrequal {python}{bash}{bashframe}{\ifstrequal 
+{python}{r}{rframe}{\ifstrequal {python}{matlab}{matlabframe}{codeframe}}}}}}}}
+}}}'.
 
-(test.listing
-LaTeX Font Info:    Font shape `T1/zi4/b/n' will be
-(Font)              scaled to size 10.95pt on input line 1.
-)
-File: logos/logo_ECL.jpg Graphic file (type jpg)
-<use logos/logo_ECL.jpg>
-Package pdftex.def Info: logos/logo_ECL.jpg  used on input line 46.
-(pdftex.def)             Requested size: 120.45705pt x 23.28836pt.
- [3
-
-]
-\openout8 = `test.listing'.
-
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.200 	\end{codeboxlang}
+                        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 (C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
@@ -1320,19 +1824,201 @@ File: lstlang1.sty 2023/02/27 1.9 listings language file
 (test.listing)
 File: logos/logo_ECL.jpg Graphic file (type jpg)
 <use logos/logo_ECL.jpg>
-Package pdftex.def Info: logos/logo_ECL.jpg  used on input line 53.
+Package pdftex.def Info: logos/logo_ECL.jpg  used on input line 200.
 (pdftex.def)             Requested size: 120.45705pt x 23.28836pt.
- [4
+ [8
+
+]
+
+! Package xcolor Error: Undefined color `\ifstrequal {java}{python}{pythonframe
+}{\ifstrequal {java}{java}{javaframe}{\ifstrequal {java}{sql}{sqlframe}{\ifstre
+qual {java}{cpp}{cppframe}{\ifstrequal {java}{c++}{cppframe}{\ifstrequal {java}
+{javascript}{jsframe}{\ifstrequal {java}{html}{htmlframe}{\ifstrequal {java}{cs
+s}{cssframe}{\ifstrequal {java}{bash}{bashframe}{\ifstrequal {java}{r}{rframe}{
+\ifstrequal {java}{matlab}{matlabframe}{codeframe}}}}}}}}}}}'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.203 	\begin{codeboxlang}{java}
+                                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+\openout8 = `test.listing'.
+
+
+! Package xcolor Error: Undefined color `\ifstrequal {java}{python}{pythonframe
+}{\ifstrequal {java}{java}{javaframe}{\ifstrequal {java}{sql}{sqlframe}{\ifstre
+qual {java}{cpp}{cppframe}{\ifstrequal {java}{c++}{cppframe}{\ifstrequal {java}
+{javascript}{jsframe}{\ifstrequal {java}{html}{htmlframe}{\ifstrequal {java}{cs
+s}{cssframe}{\ifstrequal {java}{bash}{bashframe}{\ifstrequal {java}{r}{rframe}{
+\ifstrequal {java}{matlab}{matlabframe}{codeframe}}}}}}}}}}}'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.213 	\end{codeboxlang}
+                        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+)
+(test.listing
+LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 
+4.
+
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmtt.fd
+File: ts1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+Package microtype Info: Character `texttrademark ' is missing
+(microtype)             in font `TS1/lmtt/m/it/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 			* Le point d'entrée 
+                            du programme.
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 			* Le point d'entrée 
+                            du programme.
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+)
+
+! Package xcolor Error: Undefined color `\ifstrequal {sql}{python}{pythonframe}
+{\ifstrequal {sql}{java}{javaframe}{\ifstrequal {sql}{sql}{sqlframe}{\ifstrequa
+l {sql}{cpp}{cppframe}{\ifstrequal {sql}{c++}{cppframe}{\ifstrequal {sql}{javas
+cript}{jsframe}{\ifstrequal {sql}{html}{htmlframe}{\ifstrequal {sql}{css}{cssfr
+ame}{\ifstrequal {sql}{bash}{bashframe}{\ifstrequal {sql}{r}{rframe}{\ifstrequa
+l {sql}{matlab}{matlabframe}{codeframe}}}}}}}}}}}'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.216 	\begin{codeboxlang}{sql}
+                               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+\openout8 = `test.listing'.
+
+
+! Package xcolor Error: Undefined color `\ifstrequal {sql}{python}{pythonframe}
+{\ifstrequal {sql}{java}{javaframe}{\ifstrequal {sql}{sql}{sqlframe}{\ifstrequa
+l {sql}{cpp}{cppframe}{\ifstrequal {sql}{c++}{cppframe}{\ifstrequal {sql}{javas
+cript}{jsframe}{\ifstrequal {sql}{html}{htmlframe}{\ifstrequal {sql}{css}{cssfr
+ame}{\ifstrequal {sql}{bash}{bashframe}{\ifstrequal {sql}{r}{rframe}{\ifstrequa
+l {sql}{matlab}{matlabframe}{codeframe}}}}}}}}}}}'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.228 	\end{codeboxlang}
+                        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+)
+(test.listing
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 		-- Sélectionner 
+                       les utilisateurs actifs
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 		-- Sélectionner 
+                       les utilisateurs actifs
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+)
+File: logos/logo_ECL.jpg Graphic file (type jpg)
+<use logos/logo_ECL.jpg>
+Package pdftex.def Info: logos/logo_ECL.jpg  used on input line 228.
+(pdftex.def)             Requested size: 120.45705pt x 23.28836pt.
+ [9]
+File: logos/logo_ECL.jpg Graphic file (type jpg)
+<use logos/logo_ECL.jpg>
+Package pdftex.def Info: logos/logo_ECL.jpg  used on input line 232.
+(pdftex.def)             Requested size: 120.45705pt x 23.28836pt.
+ [10]
+No file test.nls.
+
+LaTeX Warning: Reference `sec:mathématiques-et-environnements-scientifiques' o
+n page 11 undefined on input line 242.
+
+
+LaTeX Warning: Reference `fig:logo_principal' on page 11 undefined on input lin
+e 243.
+
+File: logos/logo_ECL.jpg Graphic file (type jpg)
+<use logos/logo_ECL.jpg>
+Package pdftex.def Info: logos/logo_ECL.jpg  used on input line 249.
+(pdftex.def)             Requested size: 120.45705pt x 23.28836pt.
+[11
 
 ]
 File: logos/logo_ECL.jpg Graphic file (type jpg)
 <use logos/logo_ECL.jpg>
-Package pdftex.def Info: logos/logo_ECL.jpg  used on input line 60.
+Package pdftex.def Info: logos/logo_ECL.jpg  used on input line 256.
 (pdftex.def)             Requested size: 120.45705pt x 23.28836pt.
- [5
+ [12
 
 ]
-runsystem(latexminted cleantemp  --timestamp 20250715192339 098F6BCD4621D373CAD
+runsystem(latexminted cleantemp  --timestamp 20250715203931 098F6BCD4621D373CAD
 E4E832627B4F6)...disabled (restricted).
 
  (test.aux)
@@ -1340,36 +2026,44 @@ E4E832627B4F6)...disabled (restricted).
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `test.out' has not changed.
-(rerunfilecheck)             Checksum: 2B4B23C2D5F7874FADA34A89B4E7F877;589.
+(rerunfilecheck)             Checksum: BB3E1E4D1CED9759AEF614B36CEBC7AB;3414.
  ) 
 Here is how much of TeX's memory you used:
- 41887 strings out of 474485
- 914381 string characters out of 5744678
- 1954542 words of memory out of 5000000
- 63534 multiletter control sequences out of 15000+600000
- 574894 words of font info for 68 fonts, out of 8000000 for 9000
+ 56000 strings out of 474485
+ 1322323 string characters out of 5744678
+ 2231686 words of memory out of 5000000
+ 77206 multiletter control sequences out of 15000+600000
+ 663286 words of font info for 169 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 125i,16n,121p,487b,2051s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\lab\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx20
-74.pk> <C:\Users\lab\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ec
-rm0600.pk> <C:\Users\lab\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ecrm1200.pk> <C:\Users\lab\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/d
-pi600\ecbx1200.pk> <C:\Users\lab\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
-ec/dpi600\ecbx1728.pk> <C:\Users\lab\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
-pen/ec/dpi600\ecti1200.pk> <C:\Users\lab\AppData\Local\MiKTeX\fonts/pk/ljfour/j
-knappen/ec/dpi600\eccc1440.pk> <C:\Users\lab\AppData\Local\MiKTeX\fonts/pk/ljfo
-ur/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\lab\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecbi1440.pk> <C:\Users\lab\AppData\Local\MiKTeX\fonts
-/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\lab\AppData\Local\MiKTeX\f
-onts/pk/ljfour/jknappen/ec/dpi600\eccc1728.pk> <C:\Users\lab\AppData\Local\MiKT
-eX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc2074.pk><C:/Users/lab/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4b.pfb><C:/Users/la
-b/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r
-.pfb>
-Output written on test.pdf (6 pages, 205792 bytes).
+ 125i,17n,121p,1195b,2185s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/lab/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb>
+<C:/Users/lab/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C
+:/Users/lab/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/
+Users/lab/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Us
+ers/lab/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users
+/lab/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/la
+b/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/lab/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/lab/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/lab/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/lab/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/lab/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/lab/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Users/lab/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/lab/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/lab/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/lm/lmtti10.pfb><C:/Users/lab/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on test.pdf (14 pages, 450809 bytes).
 PDF statistics:
- 437 PDF objects out of 1000 (max. 8388607)
- 21 named destinations out of 1000 (max. 500000)
- 199 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 374 PDF objects out of 1000 (max. 8388607)
+ 81 named destinations out of 1000 (max. 500000)
+ 65335 words of extra memory for PDF output out of 74296 (max. 10000000)
 

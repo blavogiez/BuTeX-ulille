@@ -1,5 +1,19 @@
 \babel@toc {french}{}\relax 
-\contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
-\contentsline {section}{\numberline {2}Exemple de code SQL}{3}{section.2}%
-\contentsline {section}{\numberline {3}Exemple de code Python}{4}{section.3}%
-\contentsline {section}{\numberline {4}Section sans numérotation}{5}{section.4}%
+\contentsline {section}{\numberline {1}Introduction et Concepts de Base}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Listes à puces et numérotées}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Structure des Titres}{3}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Ceci est un sous-sous-titre}{3}{subsubsection.1.2.1}%
+\contentsline {section}{\numberline {2}Mathématiques et Environnements Scientifiques}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Équations et Formules}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Théorèmes, Définitions et Remarques}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Unités Scientifiques}{4}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Éléments Visuels : Figures et Tableaux}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Insertion de Figures}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Création de Tableaux}{6}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Boîtes d'Information et Listings de Code}{8}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Boîtes d'Information}{8}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Listings de Code}{8}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Nomenclature et Références}{11}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Nomenclature}{11}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Références et Hyperliens}{11}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Conclusion}{12}{section.6}%

@@ -1,2 +1,11 @@
-def average(values):
-	return sum(values) / len(values)
+		-- Sélectionner les utilisateurs actifs
+		SELECT
+		user_id,
+		user_name,
+		registration_date
+		FROM
+		users
+		WHERE
+		is_active = 1
+		ORDER BY
+		registration_date DESC;
