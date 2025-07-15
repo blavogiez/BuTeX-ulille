@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.18)  15 JUL 2025 19:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.18)  15 JUL 2025 19:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1117,8 +1117,10 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 (C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
 \c@tseccounter=\count389
 )
-(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\fontawesome5
-.sty (C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3key
+s2e.sty
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2024-01-04 L3 programming layer (loader) 
 
 (C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdfte
@@ -1127,147 +1129,43 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count390
 \l__pdf_internal_box=\box101
 ))
-Package: fontawesome5 2022/05/02 v5.15.4 Font Awesome 5
-
-(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3key
-s2e.sty
 Package: l3keys2e 2023-10-10 LaTeX2e option processing using LaTeX3 keys
 )
-(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.
-sty
-Package: xparse 2023-10-10 L3 Experimental document command parser
-)
-(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\fontawesome5
--generic-helper.sty
-Package: fontawesome5-generic-helper 2022/05/02 v5.15.4 non-uTeX helper for fon
-tawesome5
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count391
+\l__lipsum_a_int=\count392
+\l__lipsum_b_int=\count393
 
-(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\fontawesome5
--mapping.def)))
-(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/
-libraries\tikzlibrarypositioning.code.tex
-File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibrar
-yarrows.meta.code.tex
-File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowinset=\dimen329
-\pgfarrowlength=\dimen330
-\pgfarrowwidth=\dimen331
-\pgfarrowlinewidth=\dimen332
-)
-(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/pgf-umlcd\pgf-umlcd.sty
-Package: pgf-umlcd 2022/05/22 v0.3 Some LaTeX macros for UML Class Diagrams.
-
-(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/pgf-umlcd\tikzlibraryumlc
-d.code.tex
-(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/
-libraries\tikzlibraryarrows.code.tex
-File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-
-(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibrar
-yarrows.code.tex
-File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\arrowsize=\dimen333
-))
-(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/
-libraries\tikzlibraryshapes.multipart.code.tex
-File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
-
-(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pg
-flibraryshapes.multipart.code.tex
-File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodepartlowerbox=\box102
-\pgfnodeparttwobox=\box103
-\pgfnodepartthreebox=\box104
-\pgfnodepartfourbox=\box105
-\pgfnodeparttwentybox=\box106
-\pgfnodepartnineteenbox=\box107
-\pgfnodeparteighteenbox=\box108
-\pgfnodepartseventeenbox=\box109
-\pgfnodepartsixteenbox=\box110
-\pgfnodepartfifteenbox=\box111
-\pgfnodepartfourteenbox=\box112
-\pgfnodepartthirteenbox=\box113
-\pgfnodeparttwelvebox=\box114
-\pgfnodepartelevenbox=\box115
-\pgfnodeparttenbox=\box116
-\pgfnodepartninebox=\box117
-\pgfnodeparteightbox=\box118
-\pgfnodepartsevenbox=\box119
-\pgfnodepartsixbox=\box120
-\pgfnodepartfivebox=\box121
-))
-(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/
-libraries\tikzlibrarybackgrounds.code.tex
-File: tikzlibrarybackgrounds.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@layerbox@background=\box122
-\pgf@layerboxsaved@background=\box123
-)
-(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/
-libraries\tikzlibraryfit.code.tex
-File: tikzlibraryfit.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-\pgf@layerbox@connectionlayers=\box124
-\pgf@layerboxsaved@connectionlayers=\box125
-\pgfumlcd@ClassAttributesNum=\count391
-\pgfumlcd@ClassOperationsNum=\count392
-\pgfumlcd@ClassAbstractClassNum=\count393
-\pgfumlcd@ClassInterfaceNum=\count394
-\pgfumlcd@ClassSplitPartNum=\count395
-))
-(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
-Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen334
-\lightrulewidth=\dimen335
-\cmidrulewidth=\dimen336
-\belowrulesep=\dimen337
-\belowbottomsep=\dimen338
-\aboverulesep=\dimen339
-\abovetopsep=\dimen340
-\cmidrulesep=\dimen341
-\cmidrulekern=\dimen342
-\defaultaddspace=\dimen343
-\@cmidla=\count396
-\@cmidlb=\count397
-\@aboverulesep=\dimen344
-\@belowrulesep=\dimen345
-\@thisruleclass=\count398
-\@lastruleclass=\count399
-\@thisrulewidth=\dimen346
-)
-(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
-Package: setspace 2022/12/04 v6.7b set line spacing
-)
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex))
 (test.aux)
 \openout1 = `test.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Info: Redefining \degres on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Info: Redefining \degres on input line 10.
 Package french.ldf Info: Setting StandardItemizeEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 18.
+(french.ldf)             reported on input line 10.
 Package french.ldf Info: Setting StandardEnumerateEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 18.
-LaTeX Info: Redefining \up on input line 18.
+(french.ldf)             reported on input line 10.
+LaTeX Info: Redefining \up on input line 10.
 
 (C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\transl
 ations-basic-dictionary-french.trsl
@@ -1275,20 +1173,20 @@ File: translations-basic-dictionary-french.trsl (french translation file `trans
 lations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `french'. on input line 18.
+or `french'. on input line 10.
 
 (C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count400
-\scratchdimen=\dimen347
-\scratchbox=\box126
-\nofMPsegments=\count401
-\nofMParguments=\count402
+\scratchcounter=\count394
+\scratchdimen=\dimen329
+\scratchbox=\box102
+\nofMPsegments=\count395
+\nofMParguments=\count396
 \everyMPshowfont=\toks53
-\MPscratchCnt=\count403
-\MPscratchDim=\dimen348
-\MPnumerator=\count404
-\makeMPintoPDFobject=\count405
+\MPscratchCnt=\count397
+\MPscratchDim=\dimen330
+\MPnumerator=\count398
+\makeMPintoPDFobject=\count399
 \everyMPtoPDFconversion=\toks54
 )
 (C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-bas
@@ -1304,8 +1202,8 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count406
-Package hyperref Info: Link coloring OFF on input line 18.
+\c@lstlisting=\count400
+Package hyperref Info: Link coloring OFF on input line 10.
  (test.out) (test.out)
 \@outlinefile=\write5
 \openout5 = `test.out'.
@@ -1348,11 +1246,11 @@ Package hyperref Info: Link coloring OFF on input line 18.
 \@nomenclaturefile=\write6
 \openout6 = `test.nlo'.
 
-Package nomencl Info: Writing nomenclature file test.nlo on input line 32.
-<logos/logo.png, id=46, 1204.5pt x 232.87pt>
+Package nomencl Info: Writing nomenclature file test.nlo on input line 20.
+<logos/logo.png, id=58, 1204.5pt x 232.87pt>
 File: logos/logo.png Graphic file (type png)
 <use logos/logo.png>
-Package pdftex.def Info: logos/logo.png  used on input line 33.
+Package pdftex.def Info: logos/logo.png  used on input line 21.
 (pdftex.def)             Requested size: 364.19667pt x 70.4123pt.
 [1
 
@@ -1361,46 +1259,58 @@ ng>] (test.toc)
 \tf@toc=\write7
 \openout7 = `test.toc'.
 
-<logos/logo_ECL.jpg, id=61, 1204.5pt x 232.87pt>
+<logos/logo_ECL.jpg, id=76, 1204.5pt x 232.87pt>
 File: logos/logo_ECL.jpg Graphic file (type jpg)
 <use logos/logo_ECL.jpg>
-Package pdftex.def Info: logos/logo_ECL.jpg  used on input line 34.
+Package pdftex.def Info: logos/logo_ECL.jpg  used on input line 22.
 (pdftex.def)             Requested size: 120.45705pt x 23.28836pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.34 	\tabledematieres
-                       %Créer la table de matières [1
+l.22 \tabledematieres
+                      [1
 
  <./logos/logo_ECL.jpg>]
-\g__tcobox_out_iow=\write8
-\openout8 = `test.listing'.
-
-(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2023/02/27 1.9 listings language file
-)
-LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 49
+LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 31
 .
 
 (C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\t1zi4.fd
 File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 12.0pt on input line 49.
+(Font)              scaled to size 12.0pt on input line 31.
+File: logos/logo_ECL.jpg Graphic file (type jpg)
+<use logos/logo_ECL.jpg>
+Package pdftex.def Info: logos/logo_ECL.jpg  used on input line 35.
+(pdftex.def)             Requested size: 120.45705pt x 23.28836pt.
+
+[2
+
+{C:/Users/lab/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4-t1-0
+.enc}]
+\g__tcobox_out_iow=\write8
+\openout8 = `test.listing'.
+
+
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+)
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 10.95pt on input line 49.
+(Font)              scaled to size 10.95pt on input line 44.
 
 (test.listing
 LaTeX Font Info:    Font shape `T1/zi4/b/n' will be
 (Font)              scaled to size 10.95pt on input line 1.
 )
-<img/version4/bodymedal.png, id=71, 303.38344pt x 377.91188pt>
-File: img/version4/bodymedal.png Graphic file (type png)
-<use img/version4/bodymedal.png>
-Package pdftex.def Info: img/version4/bodymedal.png  used on input line 51.
-(pdftex.def)             Requested size: 228.41656pt x 284.52756pt.
+File: logos/logo_ECL.jpg Graphic file (type jpg)
+<use logos/logo_ECL.jpg>
+Package pdftex.def Info: logos/logo_ECL.jpg  used on input line 46.
+(pdftex.def)             Requested size: 120.45705pt x 23.28836pt.
+ [3
+
+]
 \openout8 = `test.listing'.
 
 
@@ -1410,18 +1320,19 @@ File: lstlang1.sty 2023/02/27 1.9 listings language file
 (test.listing)
 File: logos/logo_ECL.jpg Graphic file (type jpg)
 <use logos/logo_ECL.jpg>
-Package pdftex.def Info: logos/logo_ECL.jpg  used on input line 63.
+Package pdftex.def Info: logos/logo_ECL.jpg  used on input line 53.
 (pdftex.def)             Requested size: 120.45705pt x 23.28836pt.
- [2
+ [4
 
-{C:/Users/lab/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4-t1-0
-.enc} <./img/version4/bodymedal.png>]
+]
 File: logos/logo_ECL.jpg Graphic file (type jpg)
 <use logos/logo_ECL.jpg>
-Package pdftex.def Info: logos/logo_ECL.jpg  used on input line 66.
+Package pdftex.def Info: logos/logo_ECL.jpg  used on input line 60.
 (pdftex.def)             Requested size: 120.45705pt x 23.28836pt.
- [3]
-runsystem(latexminted cleantemp  --timestamp 20250715190952 098F6BCD4621D373CAD
+ [5
+
+]
+runsystem(latexminted cleantemp  --timestamp 20250715192339 098F6BCD4621D373CAD
 E4E832627B4F6)...disabled (restricted).
 
  (test.aux)
@@ -1430,36 +1341,35 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `test.out' has not changed.
-(rerunfilecheck)             Checksum: 5C67BDD984CAF2966F6F935E82DE5B2E;83.
+(rerunfilecheck)             Checksum: 2B4B23C2D5F7874FADA34A89B4E7F877;589.
  ) 
 Here is how much of TeX's memory you used:
- 46237 strings out of 474485
- 1024153 string characters out of 5744678
- 1993542 words of memory out of 5000000
- 67836 multiletter control sequences out of 15000+600000
+ 41887 strings out of 474485
+ 914381 string characters out of 5744678
+ 1954542 words of memory out of 5000000
+ 63534 multiletter control sequences out of 15000+600000
  574894 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 125i,16n,121p,506b,2052s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 125i,16n,121p,487b,2051s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\lab\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx20
 74.pk> <C:\Users\lab\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ec
-cc1200.pk> <C:\Users\lab\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ecrm0600.pk> <C:\Users\lab\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/d
-pi600\ecrm1200.pk> <C:\Users\lab\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
-ec/dpi600\ecbx1200.pk> <C:\Users\lab\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
-pen/ec/dpi600\ecbx1728.pk> <C:\Users\lab\AppData\Local\MiKTeX\fonts/pk/ljfour/j
-knappen/ec/dpi600\ecti1200.pk> <C:\Users\lab\AppData\Local\MiKTeX\fonts/pk/ljfo
-ur/jknappen/ec/dpi600\eccc1440.pk> <C:\Users\lab\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\lab\AppData\Local\MiKTeX\fonts
-/pk/ljfour/jknappen/ec/dpi600\ecbi1440.pk> <C:\Users\lab\AppData\Local\MiKTeX\f
-onts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\lab\AppData\Local\MiKT
-eX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1728.pk> <C:\Users\lab\AppData\Local\
-MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc2074.pk><C:/Users/lab/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4b.pfb><C:/User
-s/lab/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-
-zi4r.pfb>
-Output written on test.pdf (4 pages, 205970 bytes).
+rm0600.pk> <C:\Users\lab\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\ecrm1200.pk> <C:\Users\lab\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/d
+pi600\ecbx1200.pk> <C:\Users\lab\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
+ec/dpi600\ecbx1728.pk> <C:\Users\lab\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ecti1200.pk> <C:\Users\lab\AppData\Local\MiKTeX\fonts/pk/ljfour/j
+knappen/ec/dpi600\eccc1440.pk> <C:\Users\lab\AppData\Local\MiKTeX\fonts/pk/ljfo
+ur/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\lab\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\ecbi1440.pk> <C:\Users\lab\AppData\Local\MiKTeX\fonts
+/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\lab\AppData\Local\MiKTeX\f
+onts/pk/ljfour/jknappen/ec/dpi600\eccc1728.pk> <C:\Users\lab\AppData\Local\MiKT
+eX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc2074.pk><C:/Users/lab/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4b.pfb><C:/Users/la
+b/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r
+.pfb>
+Output written on test.pdf (6 pages, 205792 bytes).
 PDF statistics:
- 364 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
- 180 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 437 PDF objects out of 1000 (max. 8388607)
+ 21 named destinations out of 1000 (max. 500000)
+ 199 words of extra memory for PDF output out of 10000 (max. 10000000)
 
