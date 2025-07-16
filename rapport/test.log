@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.18)  16 JUL 2025 07:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.18)  16 JUL 2025 08:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1437,10 +1437,10 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
 
 LaTeX Warning: Unknown theoremstyle `definition'. Using `plain' on input line 6
-95.
+71.
 
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 69
-5.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 67
+1.
 (C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1667,17 +1667,16 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 [1
 
 {C:/Users/lab/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/lab/Ap
-pData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./logos/logo.png>] [
-2]
+pData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./logos/logo.png>]
 \@nomenclaturefile=\write6
 \openout6 = `test.nlo'.
 
 Package nomencl Info: Writing nomenclature file test.nlo on input line 18.
- (test.toc)
+(test.toc)
 \tf@toc=\write7
 \openout7 = `test.toc'.
 
-<logos/logo_ECL.jpg, id=147, 1204.5pt x 232.87pt>
+<logos/logo_ECL.jpg, id=143, 1204.5pt x 232.87pt>
 File: logos/logo_ECL.jpg Graphic file (type jpg)
 <use logos/logo_ECL.jpg>
 Package pdftex.def Info: logos/logo_ECL.jpg  used on input line 21.
@@ -1711,13 +1710,7 @@ File: logos/logo_ECL.jpg Graphic file (type jpg)
 <use logos/logo_ECL.jpg>
 Package pdftex.def Info: logos/logo_ECL.jpg  used on input line 53.
 (pdftex.def)             Requested size: 120.45705pt x 23.28836pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.53 		\item L
-              e premier pas est toujours le plus important. [2
+ [2
 
 {C:/Users/lab/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
 File: logos/logo_ECL.jpg Graphic file (type jpg)
@@ -1771,44 +1764,9 @@ File: logos/logo_ECL.jpg Graphic file (type jpg)
 Package pdftex.def Info: logos/logo_ECL.jpg  used on input line 164.
 (pdftex.def)             Requested size: 120.45705pt x 23.28836pt.
  [7]
-
-! Package xcolor Error: Undefined color `\ifstrequal {python}{python}{pythonfra
-me}{\ifstrequal {python}{java}{javaframe}{\ifstrequal {python}{sql}{sqlframe}{\
-ifstrequal {python}{cpp}{cppframe}{\ifstrequal {python}{c++}{cppframe}{\ifstreq
-ual {python}{javascript}{jsframe}{\ifstrequal {python}{html}{htmlframe}{\ifstre
-qual {python}{css}{cssframe}{\ifstrequal {python}{bash}{bashframe}{\ifstrequal 
-{python}{r}{rframe}{\ifstrequal {python}{matlab}{matlabframe}{codeframe}}}}}}}}
-}}}'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.190 	\begin{codeboxlang}{python}
-                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 \g__tcobox_out_iow=\write8
 \openout8 = `test.listing'.
 
-
-! Package xcolor Error: Undefined color `\ifstrequal {python}{python}{pythonfra
-me}{\ifstrequal {python}{java}{javaframe}{\ifstrequal {python}{sql}{sqlframe}{\
-ifstrequal {python}{cpp}{cppframe}{\ifstrequal {python}{c++}{cppframe}{\ifstreq
-ual {python}{javascript}{jsframe}{\ifstrequal {python}{html}{htmlframe}{\ifstre
-qual {python}{css}{cssframe}{\ifstrequal {python}{bash}{bashframe}{\ifstrequal 
-{python}{r}{rframe}{\ifstrequal {python}{matlab}{matlabframe}{codeframe}}}}}}}}
-}}}'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.200 	\end{codeboxlang}
-                        
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
 (C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
@@ -1824,41 +1782,8 @@ Package pdftex.def Info: logos/logo_ECL.jpg  used on input line 200.
  [8
 
 ]
-
-! Package xcolor Error: Undefined color `\ifstrequal {java}{python}{pythonframe
-}{\ifstrequal {java}{java}{javaframe}{\ifstrequal {java}{sql}{sqlframe}{\ifstre
-qual {java}{cpp}{cppframe}{\ifstrequal {java}{c++}{cppframe}{\ifstrequal {java}
-{javascript}{jsframe}{\ifstrequal {java}{html}{htmlframe}{\ifstrequal {java}{cs
-s}{cssframe}{\ifstrequal {java}{bash}{bashframe}{\ifstrequal {java}{r}{rframe}{
-\ifstrequal {java}{matlab}{matlabframe}{codeframe}}}}}}}}}}}'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.203 	\begin{codeboxlang}{java}
-                                
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 \openout8 = `test.listing'.
 
-
-! Package xcolor Error: Undefined color `\ifstrequal {java}{python}{pythonframe
-}{\ifstrequal {java}{java}{javaframe}{\ifstrequal {java}{sql}{sqlframe}{\ifstre
-qual {java}{cpp}{cppframe}{\ifstrequal {java}{c++}{cppframe}{\ifstrequal {java}
-{javascript}{jsframe}{\ifstrequal {java}{html}{htmlframe}{\ifstrequal {java}{cs
-s}{cssframe}{\ifstrequal {java}{bash}{bashframe}{\ifstrequal {java}{r}{rframe}{
-\ifstrequal {java}{matlab}{matlabframe}{codeframe}}}}}}}}}}}'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.213 	\end{codeboxlang}
-                        
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
 (C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
@@ -1909,43 +1834,9 @@ in the document preamble.
 Alternatively, save the file in UTF-8 using your editor or another tool
 
 )
-
-! Package xcolor Error: Undefined color `\ifstrequal {sql}{python}{pythonframe}
-{\ifstrequal {sql}{java}{javaframe}{\ifstrequal {sql}{sql}{sqlframe}{\ifstrequa
-l {sql}{cpp}{cppframe}{\ifstrequal {sql}{c++}{cppframe}{\ifstrequal {sql}{javas
-cript}{jsframe}{\ifstrequal {sql}{html}{htmlframe}{\ifstrequal {sql}{css}{cssfr
-ame}{\ifstrequal {sql}{bash}{bashframe}{\ifstrequal {sql}{r}{rframe}{\ifstrequa
-l {sql}{matlab}{matlabframe}{codeframe}}}}}}}}}}}'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.216 	\begin{codeboxlang}{sql}
-                               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 \openout8 = `test.listing'.
 
-
-! Package xcolor Error: Undefined color `\ifstrequal {sql}{python}{pythonframe}
-{\ifstrequal {sql}{java}{javaframe}{\ifstrequal {sql}{sql}{sqlframe}{\ifstrequa
-l {sql}{cpp}{cppframe}{\ifstrequal {sql}{c++}{cppframe}{\ifstrequal {sql}{javas
-cript}{jsframe}{\ifstrequal {sql}{html}{htmlframe}{\ifstrequal {sql}{css}{cssfr
-ame}{\ifstrequal {sql}{bash}{bashframe}{\ifstrequal {sql}{r}{rframe}{\ifstrequa
-l {sql}{matlab}{matlabframe}{codeframe}}}}}}}}}}}'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.228 	\end{codeboxlang}
-                        
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+ (C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
 (test.listing
@@ -2013,7 +1904,7 @@ Package pdftex.def Info: logos/logo_ECL.jpg  used on input line 256.
  [12
 
 ]
-runsystem(latexminted cleantemp  --timestamp 20250716070356 098F6BCD4621D373CAD
+runsystem(latexminted cleantemp  --timestamp 20250716083228 098F6BCD4621D373CAD
 E4E832627B4F6)...disabled (restricted).
 
  (test.aux)
@@ -2032,13 +1923,13 @@ Package rerunfilecheck Info: File `test.out' has not changed.
 (rerunfilecheck)             Checksum: BB3E1E4D1CED9759AEF614B36CEBC7AB;3414.
  ) 
 Here is how much of TeX's memory you used:
- 55996 strings out of 474485
- 1322245 string characters out of 5744678
- 2230556 words of memory out of 5000000
- 77202 multiletter control sequences out of 15000+600000
+ 56000 strings out of 474485
+ 1322340 string characters out of 5744678
+ 2230474 words of memory out of 5000000
+ 77206 multiletter control sequences out of 15000+600000
  662968 words of font info for 168 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 125i,17n,121p,1195b,2185s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 125i,17n,121p,1195b,2187s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/lab/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb>
 <C:/Users/lab/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C
 :/Users/lab/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/
@@ -2056,9 +1947,9 @@ grams/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/lab/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/lab/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/lm/lmtti10.pfb><C:/Users/lab/AppData/Local/Programs
 /MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on test.pdf (14 pages, 450178 bytes).
+Output written on test.pdf (13 pages, 449799 bytes).
 PDF statistics:
- 374 PDF objects out of 1000 (max. 8388607)
+ 371 PDF objects out of 1000 (max. 8388607)
  81 named destinations out of 1000 (max. 500000)
  64823 words of extra memory for PDF output out of 74296 (max. 10000000)
 

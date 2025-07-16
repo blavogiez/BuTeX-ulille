@@ -171,16 +171,16 @@
 \newcommand{\fairepagedegarde}{
 	\begin{titlepage}
 		\centering
-		\vspace*{2cm}
+		\vspace*{1cm}  % Commence plus haut
 		\includegraphics[width=0.6\textwidth]{logos/logo.png}\par
-		\vspace{2cm}
-		{\Large\textbf{\textcolor{primary}{Université de Lille}} \par}
 		\vspace{1.5cm}
+		{\Large\textbf{\textcolor{primary}{Université de Lille}} \par}
+		\vspace{1.2cm}
 		{\large\textcolor{secondary}{\UE} \par}
 		{\large\textcolor{secondary}{\sujet} \par}
-		\vspace{0.5cm}
+		\vspace{0.4cm}
 		{\large\textcolor{secondary}{Rapport} \par}
-		\vspace{2cm}
+		\vspace{1.5cm}
 		
 		\begin{tcolorbox}[
 			colback=white,
@@ -191,12 +191,14 @@
 			right=2cm,
 			top=1cm,
 			bottom=1cm,
-			width=0.8\textwidth
+			width=0.8\textwidth,
+			halign=center,  % Centre le titre horizontalement
+			valign=center   % Centre le titre verticalement
 			]
 			{\huge\bfseries\textcolor{primary}{\titre}}
 		\end{tcolorbox}
 		
-		\vspace{3cm}
+		\vspace{2cm}
 		
 		\begin{minipage}{0.45\textwidth}
 			\begin{flushleft}
@@ -216,6 +218,7 @@
 		{\large\textcolor{darkgray}{\today}}
 	\end{titlepage}
 }
+
 
 \newcommand{\tabledematieres}{
 	\tableofcontents
@@ -603,34 +606,7 @@
 	numberstyle=\tiny\color{darkgray}
 }
 
-% Fonction pour obtenir les couleurs selon le langage
-\newcommand{\getlangframe}[1]{%
-	\ifstrequal{#1}{python}{pythonframe}{%
-		\ifstrequal{#1}{java}{javaframe}{%
-			\ifstrequal{#1}{sql}{sqlframe}{%
-				\ifstrequal{#1}{cpp}{cppframe}{%
-					\ifstrequal{#1}{c++}{cppframe}{%
-						\ifstrequal{#1}{javascript}{jsframe}{%
-							\ifstrequal{#1}{html}{htmlframe}{%
-								\ifstrequal{#1}{css}{cssframe}{%
-									\ifstrequal{#1}{bash}{bashframe}{%
-										\ifstrequal{#1}{r}{rframe}{%
-											\ifstrequal{#1}{matlab}{matlabframe}{%
-												codeframe%
-											}%
-										}%
-									}%
-								}%
-							}%
-						}%
-					}%
-				}%
-			}%
-		}%
-	}%
-}
-
-% Environnement de code avec style professionnel
+% Environnement de code avec style professionnel et couleur unique
 \newtcblisting{codeboxlang}[2][]{
 	enhanced,
 	arc=0pt,
@@ -646,7 +622,8 @@
 		left=15pt,
 		right=15pt,
 		top=8pt,
-		bottom=8pt
+		bottom=8pt,
+		colback=primary  % Couleur unique pour tous les langages
 	},
 	listing only,
 	listing options={
@@ -657,10 +634,9 @@
 	fonttitle=\bfseries\small,
 	breakable,
 	colback=codebg,
-	colframe=\getlangframe{#2},
+	colframe=primary,        % Couleur unique pour tous les cadres
 	coltext=textcolor,
 	coltitle=white,
-	boxed title style={colback=\getlangframe{#2}},
 	title={\textbf{\MakeUppercase{#2}}},
 	#1
 }
