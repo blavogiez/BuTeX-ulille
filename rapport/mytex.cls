@@ -141,7 +141,7 @@
 %\makenomenclature
 \RequirePackage{fancyhdr}
 \RequirePackage{url}
-\RequirePackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=3cm]{geometry}
+\RequirePackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=3.5cm]{geometry}
 
 %-------------------- Informations sur le rapport ----------------------
 
@@ -233,9 +233,10 @@
 			left=15pt,
 			right=15pt,
 			top=15pt,
-			bottom=10pt
+			bottom=10pt,
+			width=\textwidth
 			]
-			\includegraphics[height=#2]{#1}
+			\includegraphics[width=\linewidth,height=#2,keepaspectratio]{#1}
 		\end{tcolorbox}
 		\caption{#3}
 		\label{fig: #4}
@@ -245,19 +246,7 @@
 \newcommand{\merci}{
 	\vspace*{\fill}
 	\begin{center}
-		\begin{tcolorbox}[
-			colback=primary,
-			colframe=primary,
-			boxrule=0pt,
-			arc=0pt,
-			left=40pt,
-			right=40pt,
-			top=30pt,
-			bottom=30pt,
-			width=0.7\textwidth
-			]
-			{\Large\bfseries\color{white}Merci pour votre attention}
-		\end{tcolorbox}
+		{\Huge\bfseries\color{primary}Merci d'avoir consulté cette présentation}
 	\end{center}
 	\vspace*{\fill}
 }

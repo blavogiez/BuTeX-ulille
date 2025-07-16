@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.18)  15 JUL 2025 20:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.18)  16 JUL 2025 07:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1436,11 +1436,11 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \c@lemme=\count418
 
 
-LaTeX Warning: Unknown theoremstyle `definition'. Using `plain' on input line 7
-06.
+LaTeX Warning: Unknown theoremstyle `definition'. Using `plain' on input line 6
+95.
 
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 70
-6.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 69
+5.
 (C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1580,11 +1580,11 @@ your preamble.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
-* v-part:(T,H,B)=(71.13188pt, 688.5567pt, 85.35826pt)
+* v-part:(T,H,B)=(71.13188pt, 674.33032pt, 99.58464pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=455.24411pt
-* \textheight=688.5567pt
+* \textheight=674.33032pt
 * \oddsidemargin=-1.1381pt
 * \evensidemargin=-1.1381pt
 * \topmargin=-38.1381pt
@@ -1657,25 +1657,14 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-5.
-
-(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 15.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 15.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 15.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 15.
- [1
+
+[1
 
 {C:/Users/lab/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/lab/Ap
 pData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./logos/logo.png>] [
@@ -1684,18 +1673,15 @@ pData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./logos/logo.png>] [
 \openout6 = `test.nlo'.
 
 Package nomencl Info: Writing nomenclature file test.nlo on input line 18.
-
-(test.toc)
+ (test.toc)
 \tf@toc=\write7
 \openout7 = `test.toc'.
 
-<logos/logo_ECL.jpg, id=148, 1204.5pt x 232.87pt>
+<logos/logo_ECL.jpg, id=147, 1204.5pt x 232.87pt>
 File: logos/logo_ECL.jpg Graphic file (type jpg)
 <use logos/logo_ECL.jpg>
 Package pdftex.def Info: logos/logo_ECL.jpg  used on input line 21.
 (pdftex.def)             Requested size: 120.45705pt x 23.28836pt.
-LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 21.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
@@ -1705,6 +1691,16 @@ l.21 	\tabledematieres
                        [1
 
  <./logos/logo_ECL.jpg>]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
+8.
+
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 4
 2.
 
@@ -1713,15 +1709,15 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 File: logos/logo_ECL.jpg Graphic file (type jpg)
 <use logos/logo_ECL.jpg>
-Package pdftex.def Info: logos/logo_ECL.jpg  used on input line 54.
+Package pdftex.def Info: logos/logo_ECL.jpg  used on input line 53.
 (pdftex.def)             Requested size: 120.45705pt x 23.28836pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.54 		\item L
-              e deuxième suit logiquement. [2
+l.53 		\item L
+              e premier pas est toujours le plus important. [2
 
 {C:/Users/lab/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
 File: logos/logo_ECL.jpg Graphic file (type jpg)
@@ -1749,11 +1745,7 @@ Package pdftex.def Info: logos/logo_ECL.jpg  used on input line 111.
 File: logos/logo.png Graphic file (type png)
 <use logos/logo.png>
 Package pdftex.def Info: logos/logo.png  used on input line 118.
-(pdftex.def)             Requested size: 588.66632pt x 113.81102pt.
-
-Overfull \hbox (171.11273pt too wide) in paragraph at lines 118--118
-[][] 
- []
+(pdftex.def)             Requested size: 417.55627pt x 80.72754pt.
 
 
 LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
@@ -1821,7 +1813,10 @@ If that doesn't work, type  X <return>  to quit.
 (C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
-(test.listing)
+(test.listing
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 2.
+)
 File: logos/logo_ECL.jpg Graphic file (type jpg)
 <use logos/logo_ECL.jpg>
 Package pdftex.def Info: logos/logo_ECL.jpg  used on input line 200.
@@ -2018,7 +2013,7 @@ Package pdftex.def Info: logos/logo_ECL.jpg  used on input line 256.
  [12
 
 ]
-runsystem(latexminted cleantemp  --timestamp 20250715203931 098F6BCD4621D373CAD
+runsystem(latexminted cleantemp  --timestamp 20250716070356 098F6BCD4621D373CAD
 E4E832627B4F6)...disabled (restricted).
 
  (test.aux)
@@ -2037,11 +2032,11 @@ Package rerunfilecheck Info: File `test.out' has not changed.
 (rerunfilecheck)             Checksum: BB3E1E4D1CED9759AEF614B36CEBC7AB;3414.
  ) 
 Here is how much of TeX's memory you used:
- 56000 strings out of 474485
- 1322323 string characters out of 5744678
- 2231686 words of memory out of 5000000
- 77206 multiletter control sequences out of 15000+600000
- 663286 words of font info for 169 fonts, out of 8000000 for 9000
+ 55996 strings out of 474485
+ 1322245 string characters out of 5744678
+ 2230556 words of memory out of 5000000
+ 77202 multiletter control sequences out of 15000+600000
+ 662968 words of font info for 168 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  125i,17n,121p,1195b,2185s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/lab/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb>
@@ -2061,9 +2056,9 @@ grams/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/lab/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/lab/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/lm/lmtti10.pfb><C:/Users/lab/AppData/Local/Programs
 /MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on test.pdf (14 pages, 450809 bytes).
+Output written on test.pdf (14 pages, 450178 bytes).
 PDF statistics:
  374 PDF objects out of 1000 (max. 8388607)
  81 named destinations out of 1000 (max. 500000)
- 65335 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 64823 words of extra memory for PDF output out of 74296 (max. 10000000)
 
