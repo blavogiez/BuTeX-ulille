@@ -6,6 +6,7 @@
 \RequirePackage[utf8]{inputenc} %Caractères spéciaux
 \RequirePackage[section]{placeins}%Pour placement de section
 \RequirePackage[T1]{fontenc} %Quelques lettres qui sont pas inclus dans UTF-8
+\RequirePackage{ifthen} % Package pour les conditions (pour sélection de polices)
 \RequirePackage{mathtools} %Paquet pour des équations et symboles mathématiques
 \RequirePackage{siunitx} %Pour écrire avec la notation scientifique (Ex.: \num{2e+9})
 \RequirePackage{float} %Pour placement d'images
@@ -21,8 +22,87 @@
 \RequirePackage{enumitem}
 \RequirePackage{hyperref}
 
+% Commandes pour sélectionner les polices depuis le fichier .tex
+\newcommand{\policeprincipale}[1]{%
+	\ifthenelse{\equal{#1}{times}}{%
+		\RequirePackage{times}%
+	}{%
+		\ifthenelse{\equal{#1}{palatino}}{%
+			\RequirePackage{palatino}%
+		}{%
+			\ifthenelse{\equal{#1}{mathptmx}}{%
+				\RequirePackage{mathptmx}%
+			}{%
+				\ifthenelse{\equal{#1}{mathpazo}}{%
+					\RequirePackage{mathpazo}%
+				}{%
+					\ifthenelse{\equal{#1}{kpfonts}}{%
+						\RequirePackage{kpfonts}%
+					}{%
+						\ifthenelse{\equal{#1}{charter}}{%
+							\RequirePackage{charter}%
+						}{%
+							\ifthenelse{\equal{#1}{utopia}}{%
+								\RequirePackage{utopia}%
+							}{%
+								\ifthenelse{\equal{#1}{fourier}}{%
+									\RequirePackage{fourier}%
+								}{%
+									\ifthenelse{\equal{#1}{newcent}}{%
+										\RequirePackage{newcent}%
+									}{%
+										\ifthenelse{\equal{#1}{bookman}}{%
+											\RequirePackage{bookman}%
+										}{%
+											\ifthenelse{\equal{#1}{lmodern}}{%
+												\RequirePackage{lmodern}%
+											}{%
+												% Police par défaut si non reconnue
+												\RequirePackage{palatino}%
+												\PackageWarning{votreclasse}{Police principale '#1' non reconnue, utilisation de palatino par défaut}%
+	}}}}}}}}}}}%
+}
+
+\newcommand{\policesecondaire}[1]{%
+	\ifthenelse{\equal{#1}{times}}{%
+		\RequirePackage{times}%
+	}{%
+		\ifthenelse{\equal{#1}{palatino}}{%
+			\RequirePackage{palatino}%
+		}{%
+			\ifthenelse{\equal{#1}{mathptmx}}{%
+				\RequirePackage{mathptmx}%
+			}{%
+				\ifthenelse{\equal{#1}{mathpazo}}{%
+					\RequirePackage{mathpazo}%
+				}{%
+					\ifthenelse{\equal{#1}{kpfonts}}{%
+						\RequirePackage{kpfonts}%
+					}{%
+						\ifthenelse{\equal{#1}{charter}}{%
+							\RequirePackage{charter}%
+						}{%
+							\ifthenelse{\equal{#1}{utopia}}{%
+								\RequirePackage{utopia}%
+							}{%
+								\ifthenelse{\equal{#1}{fourier}}{%
+									\RequirePackage{fourier}%
+								}{%
+									\ifthenelse{\equal{#1}{newcent}}{%
+										\RequirePackage{newcent}%
+									}{%
+										\ifthenelse{\equal{#1}{bookman}}{%
+											\RequirePackage{bookman}%
+										}{%
+											\ifthenelse{\equal{#1}{lmodern}}{%
+												\RequirePackage{lmodern}%
+											}{%
+												% Pas de police secondaire si non reconnue
+												\PackageWarning{votreclasse}{Police secondaire '#1' non reconnue, ignorée}%
+	}}}}}}}}}}}%
+}
+
 % Packages pour un style professionnel
-\RequirePackage{lmodern} % Police moderne et lisible
 \RequirePackage{microtype} % Amélioration fine de la typographie
 \RequirePackage{setspace} % Contrôle précis de l'espacement
 \RequirePackage{titlesec} % Personnalisation professionnelle des titres
@@ -57,19 +137,25 @@
 	spacing = true
 }
 
-% Palette de couleurs professionnelles (tons sobres et neutres)
-\definecolor{primary}{HTML}{2C3E50}        % Bleu marine profond
-\definecolor{secondary}{HTML}{34495E}      % Gris ardoise
-\definecolor{accent}{HTML}{3498DB}         % Bleu professionnel
-\definecolor{success}{HTML}{27AE60}        % Vert professionnel
-\definecolor{warning}{HTML}{F39C12}        % Orange professionnel
-\definecolor{error}{HTML}{E74C3C}          % Rouge professionnel
-\definecolor{lightgray}{HTML}{F8F9FA}      % Gris très clair
-\definecolor{mediumgray}{HTML}{BDC3C7}     % Gris moyen
-\definecolor{darkgray}{HTML}{7F8C8D}       % Gris foncé
-\definecolor{textcolor}{HTML}{2C3E50}      % Couleur de texte principale
-\definecolor{codebg}{HTML}{F5F5F5}         % Fond de code neutre
-\definecolor{codeframe}{HTML}{D5DBDB}      % Bordure de code
+% Palette de couleurs professionnelles plus sérieuses
+\definecolor{primary}{HTML}{1A237E}        % Bleu indigo profond
+\definecolor{secondary}{HTML}{263238}      % Gris bleu foncé
+\definecolor{accent}{HTML}{1565C0}         % Bleu professionnel
+\definecolor{success}{HTML}{2E7D32}        % Vert foncé professionnel
+\definecolor{warning}{HTML}{F57C00}        % Orange foncé professionnel
+\definecolor{error}{HTML}{C62828}          % Rouge foncé professionnel
+\definecolor{lightgray}{HTML}{F5F5F5}      % Gris très clair
+\definecolor{mediumgray}{HTML}{9E9E9E}     % Gris moyen
+\definecolor{darkgray}{HTML}{424242}       % Gris foncé
+\definecolor{textcolor}{HTML}{212121}      % Couleur de texte principale
+\definecolor{codebg}{HTML}{FAFAFA}         % Fond de code neutre
+\definecolor{codeframe}{HTML}{BDBDBD}      % Bordure de code
+
+% Couleurs spécifiques pour les boîtes d'information (tons sérieux)
+\definecolor{resultcolor}{HTML}{1B5E20}    % Vert très foncé pour résultats
+\definecolor{comparisoncolor}{HTML}{0D47A1} % Bleu très foncé pour comparaisons
+\definecolor{observationcolor}{HTML}{E65100} % Orange très foncé pour observations
+\definecolor{attentioncolor}{HTML}{B71C1C}  % Rouge très foncé pour attention
 
 % Couleurs spécifiques par langage (tons professionnels)
 \definecolor{pythonbg}{HTML}{F8F9FA}
@@ -158,12 +244,12 @@
 	\setlength{\headheight}{2.5cm}
 	\fancyhf{}
 	\lhead{\includegraphics[scale=0.1]{logos/logo_ECL.jpg}}
-	\rhead{\small\textit{\nouppercase{\leftmark}}}
-	\rfoot{\small\color{darkgray}\thepage}
+	\rhead{\small\textbf{\color{primary}\nouppercase{\leftmark}}}
+	\rfoot{\small\color{darkgray}\textbf{\thepage}}
 	\cfoot{\small\color{primary}\textbf{\titre}}
-	\lfoot{\small\color{darkgray}\UE}
-	\renewcommand{\headrulewidth}{0.5pt}
-	\renewcommand{\footrulewidth}{0.5pt}
+	\lfoot{\small\color{darkgray}\textbf{\UE}}
+	\renewcommand{\headrulewidth}{0.8pt}
+	\renewcommand{\footrulewidth}{0.8pt}
 	\renewcommand{\headrule}{\hbox to\headwidth{\color{primary}\leaders\hrule height \headrulewidth\hfill}}
 	\renewcommand{\footrule}{\hbox to\headwidth{\color{primary}\leaders\hrule height \footrulewidth\hfill}}
 }
@@ -218,7 +304,6 @@
 		{\large\textcolor{darkgray}{\today}}
 	\end{titlepage}
 }
-
 
 \newcommand{\tabledematieres}{
 	\tableofcontents
@@ -328,14 +413,14 @@
 	\clearpage
 	\oldsection}
 
-% Boîtes d'information professionnelles
+% Boîtes d'information professionnelles avec couleurs sérieuses
 
-% Boîte de résultat
+% Boîte de résultat (vert très foncé)
 \newtcolorbox{resultbox}{
 	enhanced,
-	colback=success!8,
-	colframe=success,
-	boxrule=1pt,
+	colback=resultcolor!10,
+	colframe=resultcolor,
+	boxrule=1.2pt,
 	arc=0pt,
 	left=20pt,
 	right=20pt,
@@ -345,17 +430,17 @@
 	after skip=15pt,
 	leftrule=4pt,
 	attach boxed title to top left={yshift=-12pt,xshift=20pt},
-	boxed title style={colback=success, arc=0pt, boxrule=0pt},
+	boxed title style={colback=resultcolor, arc=0pt, boxrule=0pt},
 	title={\color{white}\textbf{Résultat}},
 	fonttitle=\bfseries\small
 }
 
-% Boîte de comparaison
+% Boîte de comparaison (bleu très foncé)
 \newtcolorbox{comparisonbox}{
 	enhanced,
-	colback=accent!8,
-	colframe=accent,
-	boxrule=1pt,
+	colback=comparisoncolor!10,
+	colframe=comparisoncolor,
+	boxrule=1.2pt,
 	arc=0pt,
 	left=20pt,
 	right=20pt,
@@ -365,17 +450,17 @@
 	after skip=15pt,
 	leftrule=4pt,
 	attach boxed title to top left={yshift=-12pt,xshift=20pt},
-	boxed title style={colback=accent, arc=0pt, boxrule=0pt},
+	boxed title style={colback=comparisoncolor, arc=0pt, boxrule=0pt},
 	title={\color{white}\textbf{Comparaison}},
 	fonttitle=\bfseries\small
 }
 
-% Boîte d'observation
+% Boîte d'observation (orange très foncé)
 \newtcolorbox{observationbox}{
 	enhanced,
-	colback=warning!8,
-	colframe=warning,
-	boxrule=1pt,
+	colback=observationcolor!10,
+	colframe=observationcolor,
+	boxrule=1.2pt,
 	arc=0pt,
 	left=20pt,
 	right=20pt,
@@ -385,17 +470,17 @@
 	after skip=15pt,
 	leftrule=4pt,
 	attach boxed title to top left={yshift=-12pt,xshift=20pt},
-	boxed title style={colback=warning, arc=0pt, boxrule=0pt},
+	boxed title style={colback=observationcolor, arc=0pt, boxrule=0pt},
 	title={\color{white}\textbf{Observation}},
 	fonttitle=\bfseries\small
 }
 
-% Boîte d'information
+% Boîte d'information (gris bleu foncé)
 \newtcolorbox{infobox}{
 	enhanced,
-	colback=secondary!8,
+	colback=secondary!10,
 	colframe=secondary,
-	boxrule=1pt,
+	boxrule=1.2pt,
 	arc=0pt,
 	left=20pt,
 	right=20pt,
@@ -410,12 +495,12 @@
 	fonttitle=\bfseries\small
 }
 
-% Boîte d'attention
+% Boîte d'attention (rouge très foncé)
 \newtcolorbox{warningbox}{
 	enhanced,
-	colback=error!8,
-	colframe=error,
-	boxrule=1pt,
+	colback=attentioncolor!10,
+	colframe=attentioncolor,
+	boxrule=1.2pt,
 	arc=0pt,
 	left=20pt,
 	right=20pt,
@@ -425,7 +510,7 @@
 	after skip=15pt,
 	leftrule=4pt,
 	attach boxed title to top left={yshift=-12pt,xshift=20pt},
-	boxed title style={colback=error, arc=0pt, boxrule=0pt},
+	boxed title style={colback=attentioncolor, arc=0pt, boxrule=0pt},
 	title={\color{white}\textbf{Attention}},
 	fonttitle=\bfseries\small
 }
@@ -664,10 +749,10 @@
 % Environnement pour les définitions
 \newtheorem{definition}{Définition}[section]
 \newtheorem{theorem}{Théorème}[section]
+\newtheorem{remarque}{Remarque}[section]
 \newtheorem{proposition}{Proposition}[section]
 \newtheorem{lemme}{Lemme}[section]
 
 % Configuration des théorèmes avec style professionnel
 \theoremstyle{definition}
-\newtheorem{exemple}{Exemple}[section]
-\newtheorem{remarque}{Remarque}[section]
+\newtheorem{exemple}{Exemple}
