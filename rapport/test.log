@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.18)  1 AUG 2025 14:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.18)  1 AUG 2025 14:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1403,7 +1403,7 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
 
 LaTeX Warning: Unknown theoremstyle `definition'. Using `plain' on input line 7
-57.
+69.
 
 )
 \c@exemple=\count420
@@ -1781,75 +1781,14 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `pcr' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-
-! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4 			* Le point d'entrée 
-                            du programme.
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte "A9.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4 			* Le point d'entrée 
-                            du programme.
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
 )
 \openout8 = `test.listing'.
 
- (C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+
+(C:\Users\lab\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
-(test.listing
-
-! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 		-- Sélectionner 
-                       les utilisateurs actifs
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte "A9.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 		-- Sélectionner 
-                       les utilisateurs actifs
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-)
+(test.listing)
 File: logos/logo_ECL.jpg Graphic file (type jpg)
 <use logos/logo_ECL.jpg>
 Package pdftex.def Info: logos/logo_ECL.jpg  used on input line 232.
@@ -1883,7 +1822,7 @@ Package pdftex.def Info: logos/logo_ECL.jpg  used on input line 263.
  [12
 
 ]
-runsystem(latexminted cleantemp  --timestamp 20250801145135 098F6BCD4621D373CAD
+runsystem(latexminted cleantemp  --timestamp 20250801145649 098F6BCD4621D373CAD
 E4E832627B4F6)...disabled (restricted).
 
  (test.aux)
@@ -1899,13 +1838,13 @@ Package rerunfilecheck Info: File `test.out' has not changed.
 (rerunfilecheck)             Checksum: BB3E1E4D1CED9759AEF614B36CEBC7AB;3414.
  ) 
 Here is how much of TeX's memory you used:
- 56147 strings out of 474485
- 1322036 string characters out of 5744678
- 2226435 words of memory out of 5000000
- 77234 multiletter control sequences out of 15000+600000
+ 56194 strings out of 474485
+ 1322394 string characters out of 5744678
+ 2233902 words of memory out of 5000000
+ 77281 multiletter control sequences out of 15000+600000
  621317 words of font info for 283 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 125i,17n,121p,1195b,2184s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 125i,17n,121p,1195b,2232s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/lab/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
 ex10.pfb><C:/Users/lab/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmr10.pfb><C:/Users/lab/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
@@ -1918,7 +1857,7 @@ e1/public/mathpazo/fplmri.pfb><C:/Users/lab/AppData/Local/Programs/MiKTeX/fonts
 s/type1/urw/palatino/uplb8a.pfb><C:/Users/lab/AppData/Local/Programs/MiKTeX/fon
 ts/type1/urw/palatino/uplr8a.pfb><C:/Users/lab/AppData/Local/Programs/MiKTeX/fo
 nts/type1/urw/palatino/uplri8a.pfb>
-Output written on test.pdf (13 pages, 237243 bytes).
+Output written on test.pdf (13 pages, 237743 bytes).
 PDF statistics:
  322 PDF objects out of 1000 (max. 8388607)
  81 named destinations out of 1000 (max. 500000)
