@@ -6,6 +6,7 @@
 \RequirePackage[utf8]{inputenc} %Caractères spéciaux
 \RequirePackage[section]{placeins}%Pour placement de section
 \RequirePackage[T1]{fontenc} %Quelques lettres qui sont pas inclus dans UTF-8
+\RequirePackage{fouriernc} % Police Fourier New Century
 \RequirePackage{ifthen} % Package pour les conditions
 \RequirePackage{mathtools} %Paquet pour des équations et symboles mathématiques
 \RequirePackage{siunitx} %Pour écrire avec la notation scientifique (Ex.: \num{2e+9})
@@ -59,47 +60,47 @@
 	spacing = true
 }
 
-% Palette de couleurs professionnelles plus sérieuses
-\definecolor{primary}{HTML}{1A237E}        % Bleu indigo profond
-\definecolor{secondary}{HTML}{263238}      % Gris bleu foncé
-\definecolor{accent}{HTML}{1565C0}         % Bleu professionnel
-\definecolor{success}{HTML}{2E7D32}        % Vert foncé professionnel
-\definecolor{warning}{HTML}{F57C00}        % Orange foncé professionnel
-\definecolor{error}{HTML}{C62828}          % Rouge foncé professionnel
+% Palette de couleurs bleue professionnelle et sérieuse
+\definecolor{primary}{HTML}{1A365D}        % Bleu marine professionnel - sérieux et académique
+\definecolor{secondary}{HTML}{34495E}      % Gris moderne professionnel conservé
+\definecolor{accent}{HTML}{3182CE}         % Bleu plus clair - harmonieux avec primary
+\definecolor{success}{HTML}{2D7D32}        % Vert professionnel - cohérent et sérieux
+\definecolor{warning}{HTML}{546E7A}        % Bleu-gris - évite l'orange, reste dans la palette
+\definecolor{error}{HTML}{C53030}          % Rouge foncé professionnel - sérieux sans être agressif
 \definecolor{lightgray}{HTML}{F5F5F5}      % Gris très clair
 \definecolor{mediumgray}{HTML}{9E9E9E}     % Gris moyen
 \definecolor{darkgray}{HTML}{424242}       % Gris foncé
 \definecolor{textcolor}{HTML}{212121}      % Couleur de texte principale
-\definecolor{codebg}{HTML}{FAFAFA}         % Fond de code neutre
-\definecolor{codeframe}{HTML}{BDBDBD}      % Bordure de code
+\definecolor{codebg}{HTML}{F7FAFC}         % Fond de code bleu très clair - harmonie avec palette bleue
+\definecolor{codeframe}{HTML}{3182CE}      % Bordure de code bleu accent
 
-% Couleurs spécifiques pour les boîtes d'information (tons sérieux)
-\definecolor{resultcolor}{HTML}{1B5E20}    % Vert très foncé pour résultats
-\definecolor{comparisoncolor}{HTML}{0D47A1} % Bleu très foncé pour comparaisons
-\definecolor{observationcolor}{HTML}{E65100} % Orange très foncé pour observations
-\definecolor{attentioncolor}{HTML}{B71C1C}  % Rouge très foncé pour attention
+% Couleurs spécifiques pour les boîtes d'information (harmonie bleue)
+\definecolor{resultcolor}{HTML}{2D7D32}    % Vert professionnel pour résultats
+\definecolor{comparisoncolor}{HTML}{3182CE} % Bleu accent pour comparaisons
+\definecolor{observationcolor}{HTML}{546E7A} % Bleu-gris pour observations
+\definecolor{attentioncolor}{HTML}{C53030}  % Rouge professionnel pour attention
 
-% Couleurs spécifiques par langage (tons professionnels)
-\definecolor{pythonbg}{HTML}{F8F9FA}
+% Couleurs spécifiques par langage (harmonisées avec palette bleue)
+\definecolor{pythonbg}{HTML}{F7FAFC}
 \definecolor{pythonframe}{HTML}{3776AB}
-\definecolor{javabg}{HTML}{F8F9FA}
-\definecolor{javaframe}{HTML}{ED8B00}
-\definecolor{sqlbg}{HTML}{F8F9FA}
-\definecolor{sqlframe}{HTML}{336791}
-\definecolor{cppbg}{HTML}{F8F9FA}
-\definecolor{cppframe}{HTML}{00599C}
-\definecolor{jsbg}{HTML}{F8F9FA}
-\definecolor{jsframe}{HTML}{F0DB4F}
-\definecolor{htmlbg}{HTML}{F8F9FA}
-\definecolor{htmlframe}{HTML}{E34C26}
-\definecolor{cssbg}{HTML}{F8F9FA}
-\definecolor{cssframe}{HTML}{1572B6}
-\definecolor{bashbg}{HTML}{F8F9FA}
-\definecolor{bashframe}{HTML}{4EAA25}
-\definecolor{rbg}{HTML}{F8F9FA}
-\definecolor{rframe}{HTML}{198CE7}
-\definecolor{matlabbg}{HTML}{F8F9FA}
-\definecolor{matlabframe}{HTML}{0076A8}
+\definecolor{javabg}{HTML}{F7FAFC}
+\definecolor{javaframe}{HTML}{546E7A}
+\definecolor{sqlbg}{HTML}{F7FAFC}
+\definecolor{sqlframe}{HTML}{1A365D}
+\definecolor{cppbg}{HTML}{F7FAFC}
+\definecolor{cppframe}{HTML}{34495E}
+\definecolor{jsbg}{HTML}{F7FAFC}
+\definecolor{jsframe}{HTML}{3182CE}
+\definecolor{htmlbg}{HTML}{F7FAFC}
+\definecolor{htmlframe}{HTML}{C53030}
+\definecolor{cssbg}{HTML}{F7FAFC}
+\definecolor{cssframe}{HTML}{3182CE}
+\definecolor{bashbg}{HTML}{F7FAFC}
+\definecolor{bashframe}{HTML}{2D7D32}
+\definecolor{rbg}{HTML}{F7FAFC}
+\definecolor{rframe}{HTML}{546E7A}
+\definecolor{matlabbg}{HTML}{F7FAFC}
+\definecolor{matlabframe}{HTML}{1A365D}
 
 % Configuration des liens (style professionnel)
 \hypersetup{
@@ -163,8 +164,9 @@
 	\makenomenclature
 	\pagestyle{fancy}
 	\fancyheadoffset{1cm}
-	\setlength{\headheight}{2.5cm}
+	\setlength{\headheight}{2cm}  % Réduit de 2.5cm à 2cm pour rapprocher du haut
 	\fancyhf{}
+	\lhead{\includegraphics[scale=0.1]{logos/logo_ECL_professional.jpg}}
 	\rhead{\small\textbf{\color{primary}\nouppercase{\leftmark}}}
 	\rfoot{\small\color{darkgray}\textbf{\thepage}}
 	\cfoot{\small\color{primary}\textbf{\titre}}
@@ -178,51 +180,64 @@
 \newcommand{\fairepagedegarde}{
 	\begin{titlepage}
 		\centering
-		\vspace*{1cm}  % Commence plus haut
-		\includegraphics[width=0.6\textwidth]{logos/logo.png}\par
-		\vspace{1.5cm}
-		{\Large\textbf{\textcolor{primary}{Université de Lille}} \par}
-		\vspace{1.2cm}
-		{\large\textcolor{secondary}{\UE} \par}
-		{\large\textcolor{secondary}{\sujet} \par}
-		\vspace{0.4cm}
-		{\large\textcolor{secondary}{Rapport} \par}
-		\vspace{1.5cm}
-		
-		\begin{tcolorbox}[
-			colback=white,
-			colframe=primary,
-			boxrule=1.5pt,
-			arc=0pt,
-			left=2cm,
-			right=2cm,
-			top=1cm,
-			bottom=1cm,
-			width=0.8\textwidth,
-			halign=center,  % Centre le titre horizontalement
-			valign=center   % Centre le titre verticalement
-			]
-			{\huge\bfseries\textcolor{primary}{\titre}}
-		\end{tcolorbox}
-		
+		\vspace*{0.5cm}
+		% Logo principal - simplifié
+		\includegraphics[width=0.5\textwidth]{logos/logo_professional.png}\par
 		\vspace{2cm}
-		
-		\begin{minipage}{0.45\textwidth}
-			\begin{flushleft}
-				\textbf{Étudiants :}\\
-				\textcolor{textcolor}{\eleves}
-			\end{flushleft}
-		\end{minipage}
-		\hfill
-		\begin{minipage}{0.45\textwidth}
-			\begin{flushright}
-				\textbf{Enseignant :}\\
-				\textcolor{textcolor}{\enseignant}
-			\end{flushright}
-		\end{minipage}
-		
+
+		% Informations contextuelles - fusionnées et élégantes
+		{\normalsize\textit{\textcolor{secondary}{\UE{} -- \sujet{} -- Rapport}}}
+		\vspace{2.8cm}
+
+		% Titre principal - boîte plus élégante
+		\begin{tcolorbox}[
+			colback=primary!5,
+			colframe=primary,
+			boxrule=1pt,
+			arc=2pt,
+			left=1.5cm,
+			right=1.5cm,
+			top=0.8cm,
+			bottom=0.8cm,
+			width=0.75\textwidth,
+			halign=center,
+			valign=center,
+			drop shadow
+			]
+			{\LARGE\bfseries\textcolor{primary}{\titre}}
+		\end{tcolorbox}
+
+		\vspace{3cm}
+
+		% Métadonnées - mieux organisées
+		\begin{tcolorbox}[
+			colback=lightgray!30,
+			colframe=lightgray,
+			boxrule=0.5pt,
+			arc=3pt,
+			left=1cm,
+			right=1cm,
+			top=0.7cm,
+			bottom=0.7cm,
+			width=0.8\textwidth
+			]
+			\begin{minipage}{0.45\textwidth}
+				\begin{flushleft}
+					{\small\textbf{\textcolor{secondary}{Étudiants :}}}\\[0.2cm]
+					{\small\textcolor{textcolor}{\eleves}}
+				\end{flushleft}
+			\end{minipage}
+			\hfill
+			\begin{minipage}{0.45\textwidth}
+				\begin{flushright}
+					{\small\textbf{\textcolor{secondary}{Enseignant :}}}\\[0.2cm]
+					{\small\textcolor{textcolor}{\enseignant}}
+				\end{flushright}
+			\end{minipage}
+		\end{tcolorbox}
+
 		\vfill
-		{\large\textcolor{darkgray}{\today}}
+		{\normalsize\textcolor{darkgray}{\today}}
 	\end{titlepage}
 }
 
@@ -461,7 +476,7 @@
 	\end{infobox}
 }
 
-\newcommand{\warning}[1]{%
+\newcommand{\attention}[1]{%
 	\begin{warningbox}
 		#1
 	\end{warningbox}
