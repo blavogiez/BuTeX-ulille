@@ -9,6 +9,186 @@
       "final_word_count": 803,
       "date": "2025-09-10",
       "productivity_score": 0.0
+    },
+    {
+      "session_id": "2025-09-10T14:03:12.260519",
+      "start_time": 1757505792.2605193,
+      "duration_seconds": 21.709233045578003,
+      "words_typed": 0,
+      "initial_word_count": 802,
+      "final_word_count": 802,
+      "date": "2025-09-10",
+      "productivity_score": 0.0
+    },
+    {
+      "session_id": "2025-09-10T16:24:37.518521",
+      "start_time": 1757514277.518521,
+      "duration_seconds": 4.421251058578491,
+      "words_typed": 0,
+      "initial_word_count": 802,
+      "final_word_count": 802,
+      "date": "2025-09-10",
+      "productivity_score": 0.0
+    },
+    {
+      "session_id": "2025-09-10T16:24:43.289902",
+      "start_time": 1757514283.289903,
+      "duration_seconds": 14.600327253341675,
+      "words_typed": 0,
+      "initial_word_count": 802,
+      "final_word_count": 802,
+      "date": "2025-09-10",
+      "productivity_score": 0.0
+    },
+    {
+      "session_id": "2025-09-10T16:24:58.544144",
+      "start_time": 1757514298.5441449,
+      "duration_seconds": 3.1735353469848633,
+      "words_typed": 5,
+      "initial_word_count": 802,
+      "final_word_count": 807,
+      "date": "2025-09-10",
+      "productivity_score": 94.53179725413372
+    },
+    {
+      "session_id": "2025-09-10T16:40:53.026837",
+      "start_time": 1757515253.0268376,
+      "duration_seconds": 103.6118311882019,
+      "words_typed": 0,
+      "initial_word_count": 802,
+      "final_word_count": 802,
+      "date": "2025-09-10",
+      "productivity_score": 0.0
+    },
+    {
+      "session_id": "2025-09-10T21:50:19.860202",
+      "start_time": 1757533819.8602026,
+      "duration_seconds": 24.969016075134277,
+      "words_typed": 0,
+      "initial_word_count": 802,
+      "final_word_count": 802,
+      "date": "2025-09-10",
+      "productivity_score": 0.0
+    },
+    {
+      "session_id": "2025-09-10T22:13:19.871226",
+      "start_time": 1757535199.8712265,
+      "duration_seconds": 31.872440099716187,
+      "words_typed": 0,
+      "initial_word_count": 802,
+      "final_word_count": 802,
+      "date": "2025-09-10",
+      "productivity_score": 0.0
+    },
+    {
+      "session_id": "2025-09-11T20:52:48.269362",
+      "start_time": 1757616768.269362,
+      "duration_seconds": 4.133753776550293,
+      "words_typed": 0,
+      "initial_word_count": 802,
+      "final_word_count": 802,
+      "date": "2025-09-11",
+      "productivity_score": 0.0
+    },
+    {
+      "session_id": "2025-09-11T20:54:18.175449",
+      "start_time": 1757616858.1754498,
+      "duration_seconds": 161.26137590408325,
+      "words_typed": 0,
+      "initial_word_count": 802,
+      "final_word_count": 802,
+      "date": "2025-09-11",
+      "productivity_score": 0.0
+    },
+    {
+      "session_id": "2025-09-11T20:57:10.803825",
+      "start_time": 1757617030.8038259,
+      "duration_seconds": 36.90345597267151,
+      "words_typed": 0,
+      "initial_word_count": 802,
+      "final_word_count": 802,
+      "date": "2025-09-11",
+      "productivity_score": 0.0
+    },
+    {
+      "session_id": "2025-09-11T21:00:34.423330",
+      "start_time": 1757617234.4233305,
+      "duration_seconds": 9.15618371963501,
+      "words_typed": 0,
+      "initial_word_count": 802,
+      "final_word_count": 802,
+      "date": "2025-09-11",
+      "productivity_score": 0.0
+    },
+    {
+      "session_id": "2025-09-11T21:01:04.624196",
+      "start_time": 1757617264.6241963,
+      "duration_seconds": 95.41705131530762,
+      "words_typed": 0,
+      "initial_word_count": 802,
+      "final_word_count": 802,
+      "date": "2025-09-11",
+      "productivity_score": 0.0
+    },
+    {
+      "session_id": "2025-09-11T21:03:13.096815",
+      "start_time": 1757617393.0968158,
+      "duration_seconds": 18.433199405670166,
+      "words_typed": 0,
+      "initial_word_count": 802,
+      "final_word_count": 802,
+      "date": "2025-09-11",
+      "productivity_score": 0.0
+    },
+    {
+      "session_id": "2025-09-11T21:03:33.401787",
+      "start_time": 1757617413.401788,
+      "duration_seconds": 16.879534482955933,
+      "words_typed": 0,
+      "initial_word_count": 802,
+      "final_word_count": 802,
+      "date": "2025-09-11",
+      "productivity_score": 0.0
+    },
+    {
+      "session_id": "2025-09-11T21:04:18.943018",
+      "start_time": 1757617458.9430184,
+      "duration_seconds": 36.749433755874634,
+      "words_typed": 0,
+      "initial_word_count": 802,
+      "final_word_count": 802,
+      "date": "2025-09-11",
+      "productivity_score": 0.0
+    },
+    {
+      "session_id": "2025-09-11T21:09:30.625295",
+      "start_time": 1757617770.6252956,
+      "duration_seconds": 56.340638160705566,
+      "words_typed": 0,
+      "initial_word_count": 802,
+      "final_word_count": 802,
+      "date": "2025-09-11",
+      "productivity_score": 0.0
+    },
+    {
+      "session_id": "2025-09-12T19:59:47.487733",
+      "start_time": 1757699987.487733,
+      "duration_seconds": 218.1061086654663,
+      "words_typed": 0,
+      "initial_word_count": 802,
+      "final_word_count": 802,
+      "date": "2025-09-12",
+      "productivity_score": 0.0
+    },
+    {
+      "session_id": "2025-09-12T22:04:08.450158",
+      "start_time": 1757707448.4501586,
+      "duration_seconds": 9.04684066772461,
+      "words_typed": 0,
+      "initial_word_count": 802,
+      "final_word_count": 802,
+      "date": "2025-09-12",
+      "productivity_score": 0.0
     }
   ]
 }

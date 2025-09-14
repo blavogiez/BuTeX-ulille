@@ -6,7 +6,7 @@
 \RequirePackage[utf8]{inputenc} %Caractères spéciaux
 \RequirePackage[section]{placeins}%Pour placement de section
 \RequirePackage[T1]{fontenc} %Quelques lettres qui sont pas inclus dans UTF-8
-\RequirePackage{ifthen} % Package pour les conditions
+% (removed ifthen, no more font switching)
 \RequirePackage{mathtools} %Paquet pour des équations et symboles mathématiques
 \RequirePackage{siunitx} %Pour écrire avec la notation scientifique (Ex.: \num{2e+9})
 \RequirePackage{float} %Pour placement d'images
@@ -22,14 +22,15 @@
 \RequirePackage{enumitem}
 \RequirePackage{hyperref}
 
+% Commandes pour sélectionner les polices depuis le fichier .tex
+% (police management removed)
+% (police management removed)
 % Packages pour un style professionnel
 \RequirePackage{microtype} % Amélioration fine de la typographie
 \RequirePackage{setspace} % Contrôle précis de l'espacement
 \RequirePackage{titlesec} % Personnalisation professionnelle des titres
 \RequirePackage{tikz} % Éléments graphiques minimalistes
-% Configuration de pgfplots pour compatibilité
 \RequirePackage{pgfplots} % Graphiques scientifiques
-\pgfplotsset{compat=1.18}
 \RequirePackage{booktabs} % Tableaux de qualité professionnelle
 \RequirePackage{array} % Tableaux améliorés
 \RequirePackage{multirow} % Tableaux complexes
@@ -53,7 +54,7 @@
 % Configuration de microtype pour une typographie parfaite
 \microtypesetup{
 	protrusion = true,
-	expansion = false,
+	expansion = true,
 	tracking = true,
 	kerning = true,
 	spacing = true
