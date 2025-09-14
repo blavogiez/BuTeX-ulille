@@ -1,0 +1,87 @@
+# LaTeX auxiliary files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.brf
+*.fls
+*.fdb_latexmk
+*.figlist
+*.makefile
+*.figfls
+*.figaxislog
+*.glo
+*.gls
+*.glg
+*.idx
+*.ilg
+*.ind
+*.ist
+*.lof
+*.log
+*.lot
+*.maf
+*.mtc*
+*.mlf*
+*.mlt*
+*.nlo
+*.nls
+*.out
+*.pdfsync
+*.ps
+*.synctex*
+*.toc
+*.run.xml
+*.listing
+*.loa
+*.acn
+*.acr
+*.alg
+*.glsdefs
+*.lzo
+*.nav
+*.snm
+*.vrb
+*.xdy
+*.nav
+*.snm
+*.vrb
+*.fls
+
+# LaTeX cache directories
+*.cache/
+**/*.cache/
+
+# Generated PDFs (uncomment if you want to ignore all PDFs)
+# *.pdf
+
+# Specific LaTeX build artifacts for this project
+*.auxlock
+
+# Minted (code highlighting) cache
+_minted-*/
+
+# Claude Code artifacts
+CLAUDE.md.backup
+.claude/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
