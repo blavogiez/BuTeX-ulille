@@ -617,20 +617,21 @@
 % Environnement de code avec style professionnel et couleur unique
 \newtcblisting{codeboxlang}[2][]{
 	enhanced,
-	arc=0pt,
-	boxrule=1pt,
-	top=20pt,
-	bottom=20pt,
+	arc=2pt,
+	boxrule=0.8pt,
+	top=10pt,
+	bottom=10pt,
 	left=0pt,
 	right=0pt,
-	attach boxed title to top left={yshift=-15pt,xshift=20pt},
+	boxsep=6pt,
+	attach boxed title to top left={yshift=-10pt,xshift=14pt},
 	boxed title style={
 		boxrule=0pt,
-		arc=0pt,
-		left=15pt,
-		right=15pt,
-		top=8pt,
-		bottom=8pt,
+		arc=2pt,
+		left=12pt,
+		right=12pt,
+		top=6pt,
+		bottom=6pt,
 		colback=primary  % Couleur unique pour tous les langages
 	},
 	listing only,
@@ -657,7 +658,7 @@
 	colframe=primary,        % Couleur unique pour tous les cadres
 	coltext=textcolor,
 	coltitle=white,
-	title={\textbf{\MakeUppercase{#2}}},
+	title={\ttfamily\bfseries #2},
 	#1
 }
 
