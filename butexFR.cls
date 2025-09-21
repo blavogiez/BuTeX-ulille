@@ -177,52 +177,33 @@
 
 \newcommand{\fairepagedegarde}{
 	\begin{titlepage}
-		\centering
-		\vspace*{1cm}  % Commence plus haut
-		\includegraphics[width=0.6\textwidth]{logos/logo.png}\par
-		\vspace{1.5cm}
-		{\Large\textbf{\textcolor{primary}{Université de Lille}} \par}
-		\vspace{1.2cm}
-		{\large\textcolor{secondary}{\UE} \par}
-		{\large\textcolor{secondary}{\sujet} \par}
-		\vspace{0.4cm}
-		{\large\textcolor{secondary}{Rapport} \par}
-		\vspace{1.5cm}
+		% date complète avec jour
+		\centering %Centraliser le contenu
+		\includegraphics[width=0.8\textwidth]{logos/logo_professional.png}\par\vspace{1cm} %Insertion du logo
+		\vspace{1.5cm}%Espace de 1,5cm
+		{\scshape\Large \textcolor{black}{\UE \\ \sujet \\ \vspace{0.5cm}}\par} %sous-titre en noir
+		\vspace{1cm}%Espace de 1cm
+		\rule{\linewidth}{0.1 mm} \\[0.4 cm]
+		{\huge\bfseries \textcolor{black}{\titre} \par} \
+		\rule{\linewidth}{0.1 mm} \\[1.2 cm]
+		\vspace{3cm}%Espace de 3cm
 		
-		\begin{tcolorbox}[
-			colback=white,
-			colframe=primary,
-			boxrule=1.5pt,
-			arc=0pt,
-			left=2cm,
-			right=2cm,
-			top=1cm,
-			bottom=1cm,
-			width=0.8\textwidth,
-			halign=center,  % Centre le titre horizontalement
-			valign=center   % Centre le titre verticalement
-			]
-			{\huge\bfseries\textcolor{primary}{\titre}}
-		\end{tcolorbox}
-		
-		\vspace{2cm}
-		
-		\begin{minipage}{0.45\textwidth}
-			\begin{flushleft}
-				\textbf{Étudiants :}\\
-				\textcolor{textcolor}{\eleves}
+		\begin{minipage}{0.5\textwidth} %Minipage pour faire deux colonnes
+			\begin{flushleft} \large %Envoyer à gauche
+				\emph{\textbf{Élèves :}}\\ %Pour le titre au dessus des noms à gauche
+				\textcolor{black}{\eleves}\\ %Remplacer pour chacun en noir
 			\end{flushleft}
 		\end{minipage}
-		\hfill
-		\begin{minipage}{0.45\textwidth}
-			\begin{flushright}
-				\textbf{Enseignant :}\\
-				\textcolor{textcolor}{\enseignant}
+		~
+		\begin{minipage}{0.4\textwidth}
+			\begin{flushright} \large
+				\emph{\textbf{Enseignant :}} \\
+				\textcolor{black}{\enseignant} \\ %Enseignant en noir
 			\end{flushright}
-		\end{minipage}
+		\end{minipage}\\[4cm]
 		
 		\vfill
-		{\large\textcolor{darkgray}{\today}}
+		{\today\par}
 	\end{titlepage}
 }
 
