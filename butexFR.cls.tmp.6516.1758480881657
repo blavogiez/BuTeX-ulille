@@ -61,7 +61,7 @@
 
 % Palette de couleurs professionnelles plus sérieuses
 \definecolor{primary}{HTML}{8B1538}        % Bordeaux profond
-\definecolor{secondary}{HTML}{263238}      % Bordeaux pour subsections
+\definecolor{secondary}{HTML}{263238}      % Gris bleu foncé
 \definecolor{accent}{HTML}{3A5998}         % Bleu modéré
 \definecolor{success}{HTML}{2E7D32}        % Vert foncé professionnel
 \definecolor{warning}{HTML}{F57C00}        % Orange foncé professionnel
@@ -121,7 +121,7 @@
 {\thesection}
 {1em}
 {}
-[\vspace{-0.3em}{\rule{\textwidth}{0.8pt}}]
+[\vspace{-0.3em}\rule{\textwidth}{0.8pt}]
 
 \titleformat{\subsection}
 {\large\bfseries\color{secondary}}
