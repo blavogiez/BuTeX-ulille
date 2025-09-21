@@ -218,7 +218,7 @@
 		% Sous-titre (UE + sujet) en ton Support
 		{\scshape\Large \textcolor{Accent2}{\UE \\ \sujet \\[0.5cm]}\par}
 		
-		\vspace{2.7cm}
+		\vspace{2.8cm}
 		
 		% ----- Titre souligné (trait exactement sous le texte) -----
 		{\noindent\huge\bfseries\textcolor{TextMain}{\titre}\par}%
@@ -227,12 +227,13 @@
 		{\color{Accent}\rule{\CoverTitleWidth}{0.8pt}}\par
 		% -----------------------------------------------------------
 		
-		\vspace{3.5cm}
+		\vspace{4.3cm}
 		
 		% Bloc bas de page équilibré
 		\begin{minipage}{0.48\textwidth}
 			\begin{flushleft}\large
 				{\textbf{\textcolor{Accent2}{Étudiants :}}}\\
+				\vspace{0.25cm}
 				\textcolor{TextMain}{\eleves}\\
 			\end{flushleft}
 		\end{minipage}
@@ -240,11 +241,12 @@
 		\begin{minipage}{0.48\textwidth}
 			\begin{flushright}\large
 				{\textbf{\textcolor{Accent2}{Enseignant :}}}\\
+				\vspace{0.25cm}
 				\textcolor{TextMain}{\enseignant}\\
 			\end{flushright}
 		\end{minipage}
 		
-		\vspace{5cm}
+		\vspace{4cm}
 		{\large{\textcolor{TextMain}{\today}}\par}
 	\end{titlepage}
 	\endgroup
