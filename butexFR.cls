@@ -175,36 +175,79 @@
 	\renewcommand{\footrule}{\hbox to\headwidth{\color{primary}\leaders\hrule height \footrulewidth\hfill}}
 }
 
-\newcommand{\fairepagedegarde}{
+\newcommand{\fairepagedegarde}[1][1]{%
+	\begingroup
+	% Charger xcolor si besoin
+	\makeatletter
+	\@ifpackageloaded{xcolor}{}{\RequirePackage{xcolor}}
+	\makeatother
+	
+	% ---------- Palettes (1/2/3) : TextMain, Muted, Accent, Accent2, Support ----------
+	\ifnum#1=1
+	% A. Monochrome élégant
+	\definecolor{TextMain}{HTML}{1F2937}% Charcoal
+	\definecolor{Muted}{HTML}{6B7280}% Cool Gray
+	\definecolor{Accent}{HTML}{374151}% Pour le soulignement du titre
+	\definecolor{Accent2}{HTML}{4B5563}% Libellés
+	\definecolor{Support}{HTML}{9CA3AF}% Sous-titre / date
+	\else\ifnum#1=2
+	% B. Bleu ardoise
+	\definecolor{TextMain}{HTML}{111827}
+	\definecolor{Muted}{HTML}{6B7280}
+	\definecolor{Accent}{HTML}{2563EB}
+	\definecolor{Accent2}{HTML}{1D4ED8}
+	\definecolor{Support}{HTML}{93C5FD}
+	\else
+	% C. Bordeaux académique
+	\definecolor{TextMain}{HTML}{111827}
+	\definecolor{Muted}{HTML}{6B7280}
+	\definecolor{Accent}{HTML}{7A1E2C}
+	\definecolor{Accent2}{HTML}{5C1620}
+	\definecolor{Support}{HTML}{C27A82}
+	\fi\fi
+	
+	% --- Longueur sécurisée pour la largeur du titre (évite le conflit) ---
+	\makeatletter
+	\@ifundefined{CoverTitleWidth}{\newlength\CoverTitleWidth}{}%
+	\makeatother
+	
 	\begin{titlepage}
-		% date complète avec jour
-		\centering %Centraliser le contenu
-		\includegraphics[width=0.8\textwidth]{logos/logo_professional.png}\par\vspace{1cm} %Insertion du logo
-		\vspace{1.5cm}%Espace de 1,5cm
-		{\scshape\Large \textcolor{black}{\UE \\ \sujet \\ \vspace{0.5cm}}\par} %sous-titre en noir
-		\vspace{1cm}%Espace de 1cm
-		\rule{\linewidth}{0.1 mm} \\[0.4 cm]
-		{\huge\bfseries \textcolor{black}{\titre} \par} \
-		\rule{\linewidth}{0.1 mm} \\[1.2 cm]
-		\vspace{3cm}%Espace de 3cm
+		% Logo
+		\includegraphics[width=0.75\textwidth]{logos/logo_professional.png}\par\vspace{1cm}
 		
-		\begin{minipage}{0.5\textwidth} %Minipage pour faire deux colonnes
-			\begin{flushleft} \large %Envoyer à gauche
-				\emph{\textbf{Élèves :}}\\ %Pour le titre au dessus des noms à gauche
-				\textcolor{black}{\eleves}\\ %Remplacer pour chacun en noir
+		% Sous-titre (UE + sujet) en ton Support
+		{\scshape\Large \textcolor{Accent2}{\UE \\ \sujet \\[0.5cm]}\par}
+		
+		\vspace{2.7cm}
+		
+		% ----- Titre souligné (trait exactement sous le texte) -----
+		{\noindent\huge\bfseries\textcolor{TextMain}{\titre}\par}%
+		\settowidth{\CoverTitleWidth}{\huge\bfseries\textcolor{TextMain}{\titre}}%
+		\vspace{3pt}%
+		{\color{Accent}\rule{\CoverTitleWidth}{0.8pt}}\par
+		% -----------------------------------------------------------
+		
+		\vspace{3.5cm}
+		
+		% Bloc bas de page équilibré
+		\begin{minipage}{0.48\textwidth}
+			\begin{flushleft}\large
+				{\textbf{\textcolor{Accent2}{Étudiants :}}}\\
+				\textcolor{TextMain}{\eleves}\\
 			\end{flushleft}
 		\end{minipage}
-		~
-		\begin{minipage}{0.4\textwidth}
-			\begin{flushright} \large
-				\emph{\textbf{Enseignant :}} \\
-				\textcolor{black}{\enseignant} \\ %Enseignant en noir
+		\hfill
+		\begin{minipage}{0.48\textwidth}
+			\begin{flushright}\large
+				{\textbf{\textcolor{Accent2}{Enseignant :}}}\\
+				\textcolor{TextMain}{\enseignant}\\
 			\end{flushright}
-		\end{minipage}\\[4cm]
+		\end{minipage}
 		
-		\vfill
-		{\today\par}
+		\vspace{5cm}
+		{\large{\textcolor{TextMain}{\today}}\par}
 	\end{titlepage}
+	\endgroup
 }
 
 \newcommand{\tabledematieres}{
