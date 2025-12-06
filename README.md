@@ -21,13 +21,13 @@ Document *sample* test.pdf + test.tex disponible (couvre tout)
 # Démonstrations
 
 ## Front page
-![Front page](./resources/main.jpg)
+![Front page](./assets/main.jpg)
 
 ## Page typique
-![Page typique](./resources/gallery1.jpg)
+![Page typique](./assets/gallery1.jpg)
 
 ## Utilisation des codebox (tcolorbox)
-![Codebox](./resources/gallery2.jpg)
+![Codebox](./assets/gallery2.jpg)
 
 # Crédit
 Fork (lointain) d'un thème de Centrale Lyon (probablement lui-même forké): [!Thème de centrale lyon](https://fr.overleaf.com/latex/templates/rapport-centrale-lyon/rgbvxkxqvhtc)

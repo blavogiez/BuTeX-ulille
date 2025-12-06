@@ -60,7 +60,7 @@
 }
 
 % Palette de couleurs professionnelles plus sérieuses
-\definecolor{primary}{HTML}{8B1538}        % Bordeaux profond
+\definecolor{primary}{HTML}{263238}%{8B1538}        % Bordeaux profond
 \definecolor{secondary}{HTML}{263238}      % Bordeaux pour subsections
 \definecolor{accent}{HTML}{3A5998}         % Bleu modéré
 \definecolor{success}{HTML}{2E7D32}        % Vert foncé professionnel
@@ -76,7 +76,7 @@
 % Couleurs spécifiques pour les boîtes d'information (tons sérieux)
 \definecolor{resultcolor}{HTML}{1B5E20}    % Vert très foncé pour résultats
 \definecolor{comparisoncolor}{HTML}{A91B60} % Bordeaux rosé pour comparaisons
-\definecolor{observationcolor}{HTML}{E65100} % Orange très foncé pour observations
+\definecolor{observationcolor}{HTML}{424242} % Orange très foncé pour observations
 \definecolor{attentioncolor}{HTML}{B71C1C}  % Rouge très foncé pour attention
 
 % Couleurs spécifiques par langage (tons professionnels)
@@ -100,6 +100,8 @@
 \definecolor{rframe}{HTML}{5B87C7}
 \definecolor{matlabbg}{HTML}{F8F9FA}
 \definecolor{matlabframe}{HTML}{7A1E3D}
+\definecolor{pseudocodebg}{HTML}{F8F9FA}
+\definecolor{pseudocodeframe}{HTML}{ED8B00}
 
 % Configuration des liens (style professionnel)
 \hypersetup{
@@ -246,7 +248,7 @@
 			\end{flushright}
 		\end{minipage}
 		
-		\vspace{4cm}
+		\vspace{2cm}
 		{\large{\textcolor{TextMain}{\today}}\par}
 	\end{titlepage}
 	\endgroup
@@ -637,18 +639,28 @@
 	identifierstyle=\color{textcolor},
 	numberstyle=\tiny\color{darkgray}
 }
+%langage vide
+\lstdefinelanguage{pseudocode}{}
+
+% Style pour le pseudo-code
+\lstdefinestyle{pseudocodestyle}{
+	style=basestyle,
+	backgroundcolor=\color{pseudocodebg},
+	basicstyle=\ttfamily\small\color{textcolor},
+	commentstyle=\color{darkgray}\itshape,
+	numberstyle=\tiny\color{darkgray}
+}
 
 % Environnement de code avec style professionnel et couleur unique
 \newtcblisting{codeboxlang}[2][]{
 	enhanced,
 	arc=2pt,
 	boxrule=0.8pt,
-	top=10pt,
-	bottom=10pt,
+	top=0pt,
+	bottom=0pt,
 	left=0pt,
 	right=0pt,
 	boxsep=6pt,
-	attach boxed title to top left={yshift=-10pt,xshift=14pt},
 	boxed title style={
 		boxrule=0pt,
 		arc=2pt,
@@ -680,9 +692,7 @@
 	breakable,
 	colback=codebg,
 	colframe=primary,        % Couleur unique pour tous les cadres
-	coltext=textcolor,
-	coltitle=white,
-	title={\ttfamily\bfseries #2},
+	coltext=textcolor,    
 	#1
 }
 
