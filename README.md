@@ -36,12 +36,12 @@ Je privilégie :
 - Des couleurs sobres (Noir | Gris foncé | Bleu foncé)
 - La minimisation d'éléments distincts
 
-L'objectif est de rendre la vie du lecteur / correcteur agréable. Il doit, au plus possible, passer un bon moment à la lecture.
+L'objectif est de rendre la vie du lecteur | correcteur agréable. Il doit, au plus possible, passer un bon moment à la lecture.
 
 ### Développement efficace (Algorithmie)
 
 - Utilisation de boîtes de pseudo-code
-- Combinaison de figures / sous-figures et tableaux de comparaisons
+- Combinaison de figures | sous-figures et tableaux de comparaisons
 - [Lien](https://github.com/blavogiez/developpement-modulab-Semestre3/blob/master/rendus/algo/rapport/G2_SAE3.3-Rapport_Algorithmie.pdf)
 
 ### Analyse UML
