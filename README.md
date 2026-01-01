@@ -49,5 +49,5 @@ L'objectif est de rendre la vie du lecteur | correcteur agréable. Il doit, au p
 - [Lien](https://github.com/blavogiez/developpement-modulab-Semestre3/blob/master/rendus/analyse/rapport/G2_SAE3.3-Rapport_Analyse.pdf)
 
 # Crédit
-Fork (lointain) d'un thème de Centrale Lyon (probablement lui-même forké): [Thème de Centrale Lyon](https://fr.overleaf.com/latex/templates/rapport-centrale-lyon/rgbvxkxqvhtc)
+Fork (lointain) d'un thème de Centrale Lyon (probablement lui-même fork): [Thème de Centrale Lyon](https://fr.overleaf.com/latex/templates/rapport-centrale-lyon/rgbvxkxqvhtc)
 
